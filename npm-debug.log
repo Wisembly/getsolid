@@ -1,0 +1,1307 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'localtunnel' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose cache add [ 'localtunnel', null ]
+5 verbose cache add name=undefined spec="localtunnel" args=["localtunnel",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'localtunnel',
+6 verbose parsed url   path: 'localtunnel',
+6 verbose parsed url   href: 'localtunnel' }
+7 silly lockFile a0661bc8-localtunnel localtunnel
+8 verbose lock localtunnel /Users/tristandaeschner/.npm/a0661bc8-localtunnel.lock
+9 silly lockFile a0661bc8-localtunnel localtunnel
+10 silly lockFile a0661bc8-localtunnel localtunnel
+11 verbose addNamed [ 'localtunnel', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c752cf78-localtunnel localtunnel@
+14 verbose lock localtunnel@ /Users/tristandaeschner/.npm/c752cf78-localtunnel.lock
+15 silly addNameRange { name: 'localtunnel', range: '*', hasData: false }
+16 verbose url raw localtunnel
+17 verbose url resolving [ 'https://registry.npmjs.org/', './localtunnel' ]
+18 verbose url resolved https://registry.npmjs.org/localtunnel
+19 info trying registry request attempt 1 at 17:19:03
+20 http GET https://registry.npmjs.org/localtunnel
+21 http 200 https://registry.npmjs.org/localtunnel
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Fri, 07 Nov 2014 16:19:04 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"RX0WOK712LJ8674E1SD3EZXF"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '21994',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-fra1242-FRA',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1415377143.626050,VS0,VE430',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'localtunnel', range: '*', hasData: true }
+24 silly addNameRange versions [ 'localtunnel',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0',
+24 silly addNameRange     '1.5.0' ] ]
+25 verbose addNamed [ 'localtunnel', '1.5.0' ]
+26 verbose addNamed [ '1.5.0', '1.5.0' ]
+27 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+28 verbose lock localtunnel@1.5.0 /Users/tristandaeschner/.npm/75a53410-localtunnel-1-5-0.lock
+29 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+30 verbose lock https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz /Users/tristandaeschner/.npm/b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz',
+31 verbose addRemoteTarball   '5be949779325e9f3273021a3f38d2e7a8dcd7c4f' ]
+32 info retry fetch attempt 1 at 17:19:04
+33 verbose fetch to= /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz
+34 http GET https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+35 http 200 https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+36 verbose tar unpack /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz
+37 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+38 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package /Users/tristandaeschner/.npm/50eb4d87-4086-0-32271158089861274-package.lock
+39 silly lockFile a7f83539-4086-0-32271158089861274-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz
+40 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz /Users/tristandaeschner/.npm/a7f83539-4086-0-32271158089861274-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry client.js
+46 silly gunzTarPerm extractEntry bin/client
+47 silly gunzTarPerm extractEntry .travis.yml
+48 silly gunzTarPerm extractEntry History.md
+49 silly gunzTarPerm extractEntry test/index.js
+50 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+51 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+52 silly lockFile a7f83539-4086-0-32271158089861274-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz
+53 silly lockFile a7f83539-4086-0-32271158089861274-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/tmp.tgz
+54 verbose tar pack [ '/Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz',
+54 verbose tar pack   '/var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package' ]
+55 verbose tarball /Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+56 verbose folder /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+57 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+58 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package /Users/tristandaeschner/.npm/50eb4d87-4086-0-32271158089861274-package.lock
+59 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+60 verbose lock tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz /Users/tristandaeschner/.npm/884691f7-pm-localtunnel-1-5-0-package-tgz.lock
+61 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+62 silly lockFile 50eb4d87-4086-0-32271158089861274-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144086-0.32271158089861274/package
+63 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+64 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+65 silly lockFile cbcd8991-er-npm-localtunnel-1-5-0-package /Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+66 verbose lock /Users/tristandaeschner/.npm/localtunnel/1.5.0/package /Users/tristandaeschner/.npm/cbcd8991-er-npm-localtunnel-1-5-0-package.lock
+67 silly lockFile cbcd8991-er-npm-localtunnel-1-5-0-package /Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+68 silly lockFile cbcd8991-er-npm-localtunnel-1-5-0-package /Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+69 verbose tar unpack /Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+70 silly lockFile de864623-er-npm-localtunnel-1-5-0-package tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+71 verbose lock tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package /Users/tristandaeschner/.npm/de864623-er-npm-localtunnel-1-5-0-package.lock
+72 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+73 verbose lock tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz /Users/tristandaeschner/.npm/884691f7-pm-localtunnel-1-5-0-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .npmignore
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry client.js
+79 silly gunzTarPerm extractEntry .travis.yml
+80 silly gunzTarPerm extractEntry History.md
+81 silly gunzTarPerm extractEntry bin/client
+82 silly gunzTarPerm extractEntry test/index.js
+83 silly lockFile de864623-er-npm-localtunnel-1-5-0-package tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+84 silly lockFile de864623-er-npm-localtunnel-1-5-0-package tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package
+85 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+86 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+87 verbose chmod /Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz 644
+88 verbose chown /Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz [ 502, 20 ]
+89 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+90 silly lockFile b343a5ae-ocaltunnel-localtunnel-1-5-0-tgz https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz
+91 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+92 silly lockFile 75a53410-localtunnel-1-5-0 localtunnel@1.5.0
+93 silly lockFile c752cf78-localtunnel localtunnel@
+94 silly lockFile c752cf78-localtunnel localtunnel@
+95 silly resolved [ { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+95 silly resolved     name: 'localtunnel',
+95 silly resolved     description: 'expose localhost to the world',
+95 silly resolved     version: '1.5.0',
+95 silly resolved     repository:
+95 silly resolved      { type: 'git',
+95 silly resolved        url: 'git://github.com/shtylman/localtunnel.git' },
+95 silly resolved     dependencies: { request: '2.11.4', optimist: '0.3.4', debug: '0.7.4' },
+95 silly resolved     devDependencies: { mocha: '~1.17.0' },
+95 silly resolved     scripts: { test: 'mocha --ui qunit --reporter list --timeout 10000 -- test/index.js' },
+95 silly resolved     bin: { lt: './bin/client' },
+95 silly resolved     main: './client.js',
+95 silly resolved     readme: '# localtunnel [![Build Status](https://travis-ci.org/defunctzombie/localtunnel.png?branch=master)](https://travis-ci.org/defunctzombie/localtunnel) #\n\nlocaltunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.\n\nGreat for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.\n\n## installation ##\n\n```\nnpm install -g localtunnel\n```\n\nThis will install the localtunnel module globally and add the \'lt\' client cli tool to your PATH.\n\n## use ##\n\nAssuming your local server is running on port 8000, just use the ```lt``` command to start the tunnel.\n\n```\nlt --port 8000\n```\n\nThats it! It will connect to the tunnel server, setup the tunnel, and tell you what url to use for your testing. This url will remain active for the duration of your session; so feel free to share it with others for happy fun time!\n\nYou can restart your local server all you want, ```lt``` is smart enough to detect this and reconnect once it is back.\n\n### arguments\n\nBelow are some common arguments. See `lt --help` for additional arguments\n\n* `--subdomain` request a named subdomain on the localtunnel server (default is random characters)\n* `--local-host` proxy to a hostname other than localhost\n\n## API ##\n\nThe localtunnel client is also usable through an API (for test integration, automation, etc)\n\n### localtunnel(port [,opts], fn)\n\nCreates a new localtunnel to the specified local `port`. `fn` will be called once you have been assigned a public localtunnel url. `opts` can be used to request a specific `subdomain`.\n\n```javascript\nvar localtunnel = require(\'localtunnel\');\n\nlocaltunnel(port, function(err, tunnel) {\n    if (err) ...\n\n    // the assigned public url for your tunnel\n    // i.e. https://abcdefgjhij.localtunnel.me\n    tunnel.url;\n});\n```\n\n### opts\n\n* `subdomain` A *string* value requesting a specific subdomain on the proxy server. **Note** You may not actually receive this name depending on availablily.\n* `local_host` Proxy to this hostname instead of `localhost`. This will also cause the `Host` header to be re-written to this value in proxied requests.\n\n### Tunnel\n\nThe `tunnel` instance returned to your callback emits the following events\n\n|event|args|description|\n|----|----|----|\n|error|err|fires when an error happens on the tunnel|\n|close||fires when the tunnel has closed|\n\nThe `tunnel instance has the following methods\n\n|method|args|description|\n|----|----|----|\n|close||close the tunnel|\n\n## other clients ##\n\nClients in other languages\n\n*go* [gotunnelme](https://github.com/NoahShen/gotunnelme)\n\n## server ##\n\nSee defunctzombie/localtunnel-server for details on the server that powers localtunnel.\n\n## License ##\nMIT\n',
+95 silly resolved     readmeFilename: 'README.md',
+95 silly resolved     bugs: { url: 'https://github.com/shtylman/localtunnel/issues' },
+95 silly resolved     homepage: 'https://github.com/shtylman/localtunnel',
+95 silly resolved     _id: 'localtunnel@1.5.0',
+95 silly resolved     dist: { shasum: 'aa8d80ed890348749d006061830249dca5ab6de7' },
+95 silly resolved     _from: 'localtunnel@',
+95 silly resolved     _resolved: 'https://registry.npmjs.org/localtunnel/-/localtunnel-1.5.0.tgz' } ]
+96 info install localtunnel@1.5.0 into /usr/local/lib
+97 info installOne localtunnel@1.5.0
+98 info /usr/local/lib/node_modules/localtunnel unbuild
+99 verbose tar unpack /Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+100 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+101 verbose lock tar:///usr/local/lib/node_modules/localtunnel /Users/tristandaeschner/.npm/64ac3b3b-cal-lib-node-modules-localtunnel.lock
+102 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+103 verbose lock tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz /Users/tristandaeschner/.npm/884691f7-pm-localtunnel-1-5-0-package-tgz.lock
+104 silly gunzTarPerm modes [ '755', '644' ]
+105 silly gunzTarPerm extractEntry package.json
+106 silly gunzTarPerm extractEntry .npmignore
+107 silly gunzTarPerm extractEntry README.md
+108 silly gunzTarPerm extractEntry client.js
+109 silly gunzTarPerm extractEntry .travis.yml
+110 silly gunzTarPerm extractEntry History.md
+111 silly gunzTarPerm extractEntry bin/client
+112 silly gunzTarPerm extractEntry test/index.js
+113 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+114 silly lockFile 64ac3b3b-cal-lib-node-modules-localtunnel tar:///usr/local/lib/node_modules/localtunnel
+115 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+116 silly lockFile 884691f7-pm-localtunnel-1-5-0-package-tgz tar:///Users/tristandaeschner/.npm/localtunnel/1.5.0/package.tgz
+117 info preinstall localtunnel@1.5.0
+118 verbose readDependencies using package.json deps
+119 verbose readDependencies using package.json deps
+120 verbose cache add [ 'request@2.11.4', null ]
+121 verbose cache add name=undefined spec="request@2.11.4" args=["request@2.11.4",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'request@2.11.4',
+122 verbose parsed url   path: 'request@2.11.4',
+122 verbose parsed url   href: 'request@2.11.4' }
+123 verbose cache add name="request" spec="2.11.4" args=["request","2.11.4"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '2.11.4',
+124 verbose parsed url   path: '2.11.4',
+124 verbose parsed url   href: '2.11.4' }
+125 verbose addNamed [ 'request', '2.11.4' ]
+126 verbose addNamed [ '2.11.4', '2.11.4' ]
+127 silly lockFile 228b00c3-request-2-11-4 request@2.11.4
+128 verbose lock request@2.11.4 /Users/tristandaeschner/.npm/228b00c3-request-2-11-4.lock
+129 verbose cache add [ 'optimist@0.3.4', null ]
+130 verbose cache add name=undefined spec="optimist@0.3.4" args=["optimist@0.3.4",null]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: 'optimist@0.3.4',
+131 verbose parsed url   path: 'optimist@0.3.4',
+131 verbose parsed url   href: 'optimist@0.3.4' }
+132 verbose cache add name="optimist" spec="0.3.4" args=["optimist","0.3.4"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '0.3.4',
+133 verbose parsed url   path: '0.3.4',
+133 verbose parsed url   href: '0.3.4' }
+134 verbose addNamed [ 'optimist', '0.3.4' ]
+135 verbose addNamed [ '0.3.4', '0.3.4' ]
+136 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+137 verbose lock optimist@0.3.4 /Users/tristandaeschner/.npm/823918a4-optimist-0-3-4.lock
+138 verbose cache add [ 'debug@0.7.4', null ]
+139 verbose cache add name=undefined spec="debug@0.7.4" args=["debug@0.7.4",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'debug@0.7.4',
+140 verbose parsed url   path: 'debug@0.7.4',
+140 verbose parsed url   href: 'debug@0.7.4' }
+141 verbose cache add name="debug" spec="0.7.4" args=["debug","0.7.4"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '0.7.4',
+142 verbose parsed url   path: '0.7.4',
+142 verbose parsed url   href: '0.7.4' }
+143 verbose addNamed [ 'debug', '0.7.4' ]
+144 verbose addNamed [ '0.7.4', '0.7.4' ]
+145 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+146 verbose lock debug@0.7.4 /Users/tristandaeschner/.npm/16160008-debug-0-7-4.lock
+147 verbose url raw optimist/0.3.4
+148 verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.3.4' ]
+149 verbose url resolved https://registry.npmjs.org/optimist/0.3.4
+150 info trying registry request attempt 1 at 17:19:04
+151 http GET https://registry.npmjs.org/optimist/0.3.4
+152 verbose url raw request/2.11.4
+153 verbose url resolving [ 'https://registry.npmjs.org/', './request/2.11.4' ]
+154 verbose url resolved https://registry.npmjs.org/request/2.11.4
+155 info trying registry request attempt 1 at 17:19:04
+156 http GET https://registry.npmjs.org/request/2.11.4
+157 verbose url raw debug/0.7.4
+158 verbose url resolving [ 'https://registry.npmjs.org/', './debug/0.7.4' ]
+159 verbose url resolved https://registry.npmjs.org/debug/0.7.4
+160 info trying registry request attempt 1 at 17:19:04
+161 http GET https://registry.npmjs.org/debug/0.7.4
+162 http 200 https://registry.npmjs.org/debug/0.7.4
+163 silly registry.get cb [ 200,
+163 silly registry.get   { date: 'Fri, 07 Nov 2014 16:19:04 GMT',
+163 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+163 silly registry.get     etag: '"6XAF04JEIUAY679NV7GJMKWPQ"',
+163 silly registry.get     'content-type': 'application/json',
+163 silly registry.get     'cache-control': 'max-age=60',
+163 silly registry.get     'content-length': '939',
+163 silly registry.get     'accept-ranges': 'bytes',
+163 silly registry.get     via: '1.1 varnish',
+163 silly registry.get     age: '0',
+163 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+163 silly registry.get     'x-cache': 'HIT',
+163 silly registry.get     'x-cache-hits': '1',
+163 silly registry.get     'x-timer': 'S1415377144.359295,VS0,VE103',
+163 silly registry.get     vary: 'Accept',
+163 silly registry.get     'keep-alive': 'timeout=10, max=50',
+163 silly registry.get     connection: 'Keep-Alive' } ]
+164 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+165 verbose lock https://registry.npmjs.org/debug/-/debug-0.7.4.tgz /Users/tristandaeschner/.npm/e18a217e--npmjs-org-debug-debug-0-7-4-tgz.lock
+166 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-0.7.4.tgz',
+166 verbose addRemoteTarball   '06e1ea8082c2cb14e39806e22e2f6f757f92af39' ]
+167 info retry fetch attempt 1 at 17:19:04
+168 verbose fetch to= /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz
+169 http GET https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+170 http 200 https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+171 verbose tar unpack /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz
+172 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+173 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package /Users/tristandaeschner/.npm/2b7814ec-44461-0-9879823580849916-package.lock
+174 silly lockFile f7bc1c0e-44461-0-9879823580849916-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz
+175 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz /Users/tristandaeschner/.npm/f7bc1c0e-44461-0-9879823580849916-tmp-tgz.lock
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm extractEntry debug.js
+179 silly gunzTarPerm extractEntry index.js
+180 silly gunzTarPerm extractEntry Readme.md
+181 silly gunzTarPerm extractEntry lib/debug.js
+182 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+183 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+184 silly lockFile f7bc1c0e-44461-0-9879823580849916-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz
+185 silly lockFile f7bc1c0e-44461-0-9879823580849916-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/tmp.tgz
+186 verbose tar pack [ '/Users/tristandaeschner/.npm/debug/0.7.4/package.tgz',
+186 verbose tar pack   '/var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package' ]
+187 verbose tarball /Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+188 verbose folder /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+189 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+190 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package /Users/tristandaeschner/.npm/2b7814ec-44461-0-9879823580849916-package.lock
+191 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+192 verbose lock tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz /Users/tristandaeschner/.npm/69908938-hner-npm-debug-0-7-4-package-tgz.lock
+193 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+194 silly lockFile 2b7814ec-44461-0-9879823580849916-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144461-0.9879823580849916/package
+195 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+196 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+197 silly lockFile f9c4e337-aeschner-npm-debug-0-7-4-package /Users/tristandaeschner/.npm/debug/0.7.4/package
+198 verbose lock /Users/tristandaeschner/.npm/debug/0.7.4/package /Users/tristandaeschner/.npm/f9c4e337-aeschner-npm-debug-0-7-4-package.lock
+199 silly lockFile f9c4e337-aeschner-npm-debug-0-7-4-package /Users/tristandaeschner/.npm/debug/0.7.4/package
+200 silly lockFile f9c4e337-aeschner-npm-debug-0-7-4-package /Users/tristandaeschner/.npm/debug/0.7.4/package
+201 verbose tar unpack /Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+202 silly lockFile 5cb10456-aeschner-npm-debug-0-7-4-package tar:///Users/tristandaeschner/.npm/debug/0.7.4/package
+203 verbose lock tar:///Users/tristandaeschner/.npm/debug/0.7.4/package /Users/tristandaeschner/.npm/5cb10456-aeschner-npm-debug-0-7-4-package.lock
+204 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+205 verbose lock tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz /Users/tristandaeschner/.npm/69908938-hner-npm-debug-0-7-4-package-tgz.lock
+206 silly gunzTarPerm modes [ '755', '644' ]
+207 silly gunzTarPerm extractEntry package.json
+208 silly gunzTarPerm extractEntry debug.js
+209 silly gunzTarPerm extractEntry index.js
+210 silly gunzTarPerm extractEntry Readme.md
+211 silly gunzTarPerm extractEntry lib/debug.js
+212 silly lockFile 5cb10456-aeschner-npm-debug-0-7-4-package tar:///Users/tristandaeschner/.npm/debug/0.7.4/package
+213 silly lockFile 5cb10456-aeschner-npm-debug-0-7-4-package tar:///Users/tristandaeschner/.npm/debug/0.7.4/package
+214 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+215 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+216 verbose chmod /Users/tristandaeschner/.npm/debug/0.7.4/package.tgz 644
+217 verbose chown /Users/tristandaeschner/.npm/debug/0.7.4/package.tgz [ 502, 20 ]
+218 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+219 silly lockFile e18a217e--npmjs-org-debug-debug-0-7-4-tgz https://registry.npmjs.org/debug/-/debug-0.7.4.tgz
+220 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+221 silly lockFile 16160008-debug-0-7-4 debug@0.7.4
+222 http 200 https://registry.npmjs.org/request/2.11.4
+223 silly registry.get cb [ 200,
+223 silly registry.get   { date: 'Fri, 07 Nov 2014 16:19:04 GMT',
+223 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+223 silly registry.get     etag: '"D8UZ32H7H5DL24LY1VM9KEPN3"',
+223 silly registry.get     'content-type': 'application/json',
+223 silly registry.get     'cache-control': 'max-age=60',
+223 silly registry.get     'content-length': '943',
+223 silly registry.get     'accept-ranges': 'bytes',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     age: '0',
+223 silly registry.get     'x-served-by': 'cache-fra1222-FRA',
+223 silly registry.get     'x-cache': 'HIT',
+223 silly registry.get     'x-cache-hits': '1',
+223 silly registry.get     'x-timer': 'S1415377144.354226,VS0,VE428',
+223 silly registry.get     vary: 'Accept',
+223 silly registry.get     'keep-alive': 'timeout=10, max=50',
+223 silly registry.get     connection: 'Keep-Alive' } ]
+224 silly lockFile ceb4f909-s-org-request-request-2-11-4-tgz https://registry.npmjs.org/request/-/request-2.11.4.tgz
+225 verbose lock https://registry.npmjs.org/request/-/request-2.11.4.tgz /Users/tristandaeschner/.npm/ceb4f909-s-org-request-request-2-11-4-tgz.lock
+226 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.11.4.tgz',
+226 verbose addRemoteTarball   '6347d7d44e52dc588108cc1ce5cee975fc8926de' ]
+227 info retry fetch attempt 1 at 17:19:04
+228 verbose fetch to= /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz
+229 http GET https://registry.npmjs.org/request/-/request-2.11.4.tgz
+230 http 200 https://registry.npmjs.org/request/-/request-2.11.4.tgz
+231 verbose tar unpack /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz
+232 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+233 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package /Users/tristandaeschner/.npm/6fc4375f-44780-0-7689444799907506-package.lock
+234 silly lockFile 57a43bff-44780-0-7689444799907506-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz
+235 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz /Users/tristandaeschner/.npm/57a43bff-44780-0-7689444799907506-tmp-tgz.lock
+236 silly gunzTarPerm modes [ '755', '644' ]
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm extractEntry README.md
+239 silly gunzTarPerm extractEntry LICENSE
+240 silly gunzTarPerm extractEntry main.js
+241 silly gunzTarPerm extractEntry uuid.js
+242 silly gunzTarPerm extractEntry oauth.js
+243 silly gunzTarPerm extractEntry forever.js
+244 silly gunzTarPerm extractEntry tunnel.js
+245 silly gunzTarPerm extractEntry aws.js
+246 silly gunzTarPerm extractEntry tests/test-https-strict.js
+247 silly gunzTarPerm extractEntry tests/test-headers.js
+248 silly gunzTarPerm extractEntry tests/test-httpModule.js
+249 silly gunzTarPerm extractEntry tests/run.js
+250 silly gunzTarPerm extractEntry tests/test-form.js
+251 silly gunzTarPerm extractEntry tests/test-oauth.js
+252 silly gunzTarPerm extractEntry tests/test-params.js
+253 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+254 silly gunzTarPerm extractEntry tests/test-pipes.js
+255 silly gunzTarPerm extractEntry tests/test-pool.js
+256 silly gunzTarPerm extractEntry tests/test-follow-all.js
+257 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+258 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+259 silly gunzTarPerm extractEntry tests/test-proxy.js
+260 silly gunzTarPerm extractEntry tests/test-errors.js
+261 silly gunzTarPerm extractEntry tests/test-qs.js
+262 silly gunzTarPerm extractEntry tests/test-defaults.js
+263 silly gunzTarPerm extractEntry tests/test-redirect.js
+264 silly gunzTarPerm extractEntry tests/test-cookiejar.js
+265 silly gunzTarPerm extractEntry tests/test-s3.js
+266 silly gunzTarPerm extractEntry tests/test-cookie.js
+267 silly gunzTarPerm extractEntry tests/test-timeout.js
+268 silly gunzTarPerm extractEntry tests/test-body.js
+269 silly gunzTarPerm extractEntry tests/test-toJSON.js
+270 silly gunzTarPerm extractEntry tests/server.js
+271 silly gunzTarPerm extractEntry tests/test-tunnel.js
+272 silly gunzTarPerm extractEntry tests/test-https.js
+273 silly gunzTarPerm extractEntry tests/squid.conf
+274 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+275 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+276 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+277 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+278 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+279 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+280 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+281 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+282 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+283 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+284 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+285 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+286 silly gunzTarPerm extractEntry tests/ssl/test.crt
+287 silly gunzTarPerm extractEntry tests/ssl/test.key
+288 silly gunzTarPerm extractEntry tests/googledoodle.png
+289 silly gunzTarPerm extractEntry tests/unicycle.jpg
+290 silly gunzTarPerm extractEntry vendor/cookie/index.js
+291 silly gunzTarPerm extractEntry vendor/cookie/jar.js
+292 silly gunzTarPerm extractEntry node_modules/form-data/package.json
+293 silly gunzTarPerm extractEntry node_modules/form-data/.npmignore
+294 silly gunzTarPerm extractEntry node_modules/form-data/lib/form_data.js
+295 silly gunzTarPerm extractEntry node_modules/form-data/Makefile
+296 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-project
+297 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-workspace
+298 silly gunzTarPerm extractEntry node_modules/form-data/Readme.md
+299 silly gunzTarPerm extractEntry node_modules/form-data/test/common.js
+300 silly gunzTarPerm extractEntry node_modules/form-data/test/run.js
+301 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/bacon.txt
+302 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/unicycle.jpg
+303 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-form-get-length.js
+304 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-get-boundary.js
+305 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-http-response.js
+306 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-pipe.js
+307 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-submit.js
+308 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/package.json
+309 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/README.md
+310 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/LICENSE
+311 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/index.js
+312 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/.gitmodules
+313 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/lib/async.js
+314 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/async.min.js.gzip
+315 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/Makefile
+316 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/nodelint.cfg
+317 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.js
+318 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.css
+319 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/dist/async.min.js
+320 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test-async.js
+321 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/.swp
+322 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test.html
+323 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/package.json
+324 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/.npmignore
+325 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js
+326 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/License
+327 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Makefile
+328 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Readme.md
+329 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/common.js
+330 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/run.js
+331 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt
+332 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt
+333 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js
+334 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js
+335 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js
+336 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js
+337 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js
+338 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js
+339 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+340 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+341 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+342 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License
+343 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+344 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+345 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+346 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+347 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+348 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+349 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+350 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+351 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+352 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+353 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+354 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+355 silly gunzTarPerm extractEntry node_modules/mime/package.json
+356 silly gunzTarPerm extractEntry node_modules/mime/README.md
+357 silly gunzTarPerm extractEntry node_modules/mime/LICENSE
+358 silly gunzTarPerm extractEntry node_modules/mime/mime.js
+359 silly gunzTarPerm extractEntry node_modules/mime/test.js
+360 silly gunzTarPerm extractEntry node_modules/mime/types/mime.types
+361 silly gunzTarPerm extractEntry node_modules/mime/types/node.types
+362 http 200 https://registry.npmjs.org/optimist/0.3.4
+363 silly registry.get cb [ 200,
+363 silly registry.get   { date: 'Fri, 07 Nov 2014 16:19:05 GMT',
+363 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+363 silly registry.get     etag: '"5JASNAZV8QI9EPD6K3JN1HQIU"',
+363 silly registry.get     'content-type': 'application/json',
+363 silly registry.get     'cache-control': 'max-age=60',
+363 silly registry.get     'content-length': '1042',
+363 silly registry.get     'accept-ranges': 'bytes',
+363 silly registry.get     via: '1.1 varnish',
+363 silly registry.get     age: '0',
+363 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+363 silly registry.get     'x-cache': 'HIT',
+363 silly registry.get     'x-cache-hits': '1',
+363 silly registry.get     'x-timer': 'S1415377144.355765,VS0,VE727',
+363 silly registry.get     vary: 'Accept',
+363 silly registry.get     'keep-alive': 'timeout=10, max=50',
+363 silly registry.get     connection: 'Keep-Alive' } ]
+364 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+365 verbose lock https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz /Users/tristandaeschner/.npm/6c2be0e1--org-optimist-optimist-0-3-4-tgz.lock
+366 verbose addRemoteTarball [ 'https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz',
+366 verbose addRemoteTarball   '4d6d0bd71ffad0da4ba4f6d876d5eeb04e07480b' ]
+367 info retry fetch attempt 1 at 17:19:05
+368 verbose fetch to= /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz
+369 http GET https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+370 http 200 https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+371 verbose tar unpack /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz
+372 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+373 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package /Users/tristandaeschner/.npm/127a7af0-45081-0-7483458023052663-package.lock
+374 silly lockFile 757b8ce3-45081-0-7483458023052663-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz
+375 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz /Users/tristandaeschner/.npm/757b8ce3-45081-0-7483458023052663-tmp-tgz.lock
+376 silly gunzTarPerm modes [ '755', '644' ]
+377 silly gunzTarPerm extractEntry example/
+378 silly gunzTarPerm extractEntry example/line_count_options.js
+379 silly gunzTarPerm extractEntry example/boolean_single.js
+380 silly gunzTarPerm extractEntry example/short.js
+381 silly gunzTarPerm extractEntry example/string.js
+382 silly gunzTarPerm extractEntry example/boolean_double.js
+383 silly gunzTarPerm extractEntry example/divide.js
+384 silly gunzTarPerm extractEntry example/nonopt.js
+385 silly gunzTarPerm extractEntry example/line_count.js
+386 silly gunzTarPerm extractEntry example/default_hash.js
+387 silly gunzTarPerm extractEntry example/reflect.js
+388 silly gunzTarPerm extractEntry example/default_singles.js
+389 silly gunzTarPerm extractEntry example/usage-options.js
+390 silly gunzTarPerm extractEntry example/bool.js
+391 silly gunzTarPerm extractEntry example/xup.js
+392 silly gunzTarPerm extractEntry example/line_count_wrap.js
+393 silly gunzTarPerm extractEntry index.js
+394 silly gunzTarPerm extractEntry test/
+395 silly gunzTarPerm extractEntry test/_/
+396 silly gunzTarPerm extractEntry test/_/bin.js
+397 silly gunzTarPerm extractEntry test/_/argv.js
+398 silly gunzTarPerm extractEntry test/parse.js
+399 silly gunzTarPerm extractEntry test/_.js
+400 silly gunzTarPerm extractEntry test/usage.js
+401 silly gunzTarPerm extractEntry package.json
+402 silly gunzTarPerm extractEntry .travis.yml
+403 silly gunzTarPerm extractEntry README.markdown
+404 silly gunzTarPerm extractEntry LICENSE
+405 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+406 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+407 silly lockFile 757b8ce3-45081-0-7483458023052663-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz
+408 silly lockFile 757b8ce3-45081-0-7483458023052663-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/tmp.tgz
+409 verbose tar pack [ '/Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz',
+409 verbose tar pack   '/var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package' ]
+410 verbose tarball /Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+411 verbose folder /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+412 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+413 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package /Users/tristandaeschner/.npm/127a7af0-45081-0-7483458023052663-package.lock
+414 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+415 verbose lock tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz /Users/tristandaeschner/.npm/eb75ba49-r-npm-optimist-0-3-4-package-tgz.lock
+416 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+417 silly lockFile 127a7af0-45081-0-7483458023052663-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377145081-0.7483458023052663/package
+418 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+419 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+420 silly lockFile 7a41878e-chner-npm-optimist-0-3-4-package /Users/tristandaeschner/.npm/optimist/0.3.4/package
+421 verbose lock /Users/tristandaeschner/.npm/optimist/0.3.4/package /Users/tristandaeschner/.npm/7a41878e-chner-npm-optimist-0-3-4-package.lock
+422 silly lockFile 7a41878e-chner-npm-optimist-0-3-4-package /Users/tristandaeschner/.npm/optimist/0.3.4/package
+423 silly lockFile 7a41878e-chner-npm-optimist-0-3-4-package /Users/tristandaeschner/.npm/optimist/0.3.4/package
+424 verbose tar unpack /Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+425 silly lockFile 7ce4f450-chner-npm-optimist-0-3-4-package tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package
+426 verbose lock tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package /Users/tristandaeschner/.npm/7ce4f450-chner-npm-optimist-0-3-4-package.lock
+427 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+428 verbose lock tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz /Users/tristandaeschner/.npm/eb75ba49-r-npm-optimist-0-3-4-package-tgz.lock
+429 silly gunzTarPerm modes [ '755', '644' ]
+430 silly gunzTarPerm extractEntry package.json
+431 silly gunzTarPerm extractEntry LICENSE
+432 silly gunzTarPerm extractEntry index.js
+433 silly gunzTarPerm extractEntry .travis.yml
+434 silly gunzTarPerm extractEntry README.markdown
+435 silly gunzTarPerm extractEntry example/bool.js
+436 silly gunzTarPerm extractEntry example/default_singles.js
+437 silly gunzTarPerm extractEntry example/divide.js
+438 silly gunzTarPerm extractEntry example/line_count.js
+439 silly gunzTarPerm extractEntry example/default_hash.js
+440 silly gunzTarPerm extractEntry example/line_count_wrap.js
+441 silly gunzTarPerm extractEntry example/nonopt.js
+442 silly gunzTarPerm extractEntry example/reflect.js
+443 silly gunzTarPerm extractEntry example/short.js
+444 silly gunzTarPerm extractEntry example/string.js
+445 silly gunzTarPerm extractEntry example/boolean_single.js
+446 silly gunzTarPerm extractEntry example/usage-options.js
+447 silly gunzTarPerm extractEntry example/boolean_double.js
+448 silly gunzTarPerm extractEntry example/xup.js
+449 silly gunzTarPerm extractEntry example/line_count_options.js
+450 silly gunzTarPerm extractEntry test/_.js
+451 silly gunzTarPerm extractEntry test/parse.js
+452 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+453 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+454 silly gunzTarPerm extractEntry test/usage.js
+455 silly gunzTarPerm extractEntry test/_/argv.js
+456 silly lockFile 57a43bff-44780-0-7689444799907506-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz
+457 silly lockFile 57a43bff-44780-0-7689444799907506-tmp-tgz tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/tmp.tgz
+458 verbose tar pack [ '/Users/tristandaeschner/.npm/request/2.11.4/package.tgz',
+458 verbose tar pack   '/var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package' ]
+459 verbose tarball /Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+460 verbose folder /var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+461 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+462 verbose lock tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package /Users/tristandaeschner/.npm/6fc4375f-44780-0-7689444799907506-package.lock
+463 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+464 verbose lock tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz /Users/tristandaeschner/.npm/2814a931-r-npm-request-2-11-4-package-tgz.lock
+465 silly gunzTarPerm extractEntry test/_/bin.js
+466 silly lockFile 7ce4f450-chner-npm-optimist-0-3-4-package tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package
+467 silly lockFile 7ce4f450-chner-npm-optimist-0-3-4-package tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package
+468 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+469 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+470 verbose chmod /Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz 644
+471 verbose chown /Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz [ 502, 20 ]
+472 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+473 silly lockFile 6c2be0e1--org-optimist-optimist-0-3-4-tgz https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz
+474 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+475 silly lockFile 823918a4-optimist-0-3-4 optimist@0.3.4
+476 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+477 silly lockFile 6fc4375f-44780-0-7689444799907506-package tar:///var/folders/mh/mxg311tj3_35df5ffz05d4x40000gp/T/npm-60281-WhT7Q33G/1415377144780-0.7689444799907506/package
+478 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+479 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+480 silly lockFile ac723ed9-chner-npm-request-2-11-4-package /Users/tristandaeschner/.npm/request/2.11.4/package
+481 verbose lock /Users/tristandaeschner/.npm/request/2.11.4/package /Users/tristandaeschner/.npm/ac723ed9-chner-npm-request-2-11-4-package.lock
+482 silly lockFile ac723ed9-chner-npm-request-2-11-4-package /Users/tristandaeschner/.npm/request/2.11.4/package
+483 silly lockFile ac723ed9-chner-npm-request-2-11-4-package /Users/tristandaeschner/.npm/request/2.11.4/package
+484 verbose tar unpack /Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+485 silly lockFile 1d0d1df6-chner-npm-request-2-11-4-package tar:///Users/tristandaeschner/.npm/request/2.11.4/package
+486 verbose lock tar:///Users/tristandaeschner/.npm/request/2.11.4/package /Users/tristandaeschner/.npm/1d0d1df6-chner-npm-request-2-11-4-package.lock
+487 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+488 verbose lock tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz /Users/tristandaeschner/.npm/2814a931-r-npm-request-2-11-4-package-tgz.lock
+489 silly gunzTarPerm modes [ '755', '644' ]
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry README.md
+492 silly gunzTarPerm extractEntry LICENSE
+493 silly gunzTarPerm extractEntry aws.js
+494 silly gunzTarPerm extractEntry forever.js
+495 silly gunzTarPerm extractEntry main.js
+496 silly gunzTarPerm extractEntry uuid.js
+497 silly gunzTarPerm extractEntry tunnel.js
+498 silly gunzTarPerm extractEntry oauth.js
+499 silly gunzTarPerm extractEntry tests/test-https-strict.js
+500 silly gunzTarPerm extractEntry tests/test-headers.js
+501 silly gunzTarPerm extractEntry tests/test-httpModule.js
+502 silly gunzTarPerm extractEntry tests/run.js
+503 silly gunzTarPerm extractEntry tests/test-form.js
+504 silly gunzTarPerm extractEntry tests/test-oauth.js
+505 silly gunzTarPerm extractEntry tests/test-params.js
+506 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+507 silly gunzTarPerm extractEntry tests/test-pipes.js
+508 silly gunzTarPerm extractEntry tests/test-pool.js
+509 silly gunzTarPerm extractEntry tests/test-follow-all.js
+510 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+511 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+512 silly gunzTarPerm extractEntry tests/test-proxy.js
+513 silly gunzTarPerm extractEntry tests/test-errors.js
+514 silly gunzTarPerm extractEntry tests/test-qs.js
+515 silly gunzTarPerm extractEntry tests/test-defaults.js
+516 silly gunzTarPerm extractEntry tests/test-redirect.js
+517 silly gunzTarPerm extractEntry tests/test-cookiejar.js
+518 silly gunzTarPerm extractEntry tests/test-s3.js
+519 silly gunzTarPerm extractEntry tests/test-cookie.js
+520 silly gunzTarPerm extractEntry tests/test-timeout.js
+521 silly gunzTarPerm extractEntry tests/test-body.js
+522 silly gunzTarPerm extractEntry tests/test-toJSON.js
+523 silly gunzTarPerm extractEntry tests/server.js
+524 silly gunzTarPerm extractEntry tests/test-tunnel.js
+525 silly gunzTarPerm extractEntry tests/test-https.js
+526 silly gunzTarPerm extractEntry tests/squid.conf
+527 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+528 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+529 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+530 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+531 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+532 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+533 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+534 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+535 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+536 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+537 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+538 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+539 silly gunzTarPerm extractEntry tests/ssl/test.crt
+540 silly gunzTarPerm extractEntry tests/ssl/test.key
+541 silly gunzTarPerm extractEntry tests/googledoodle.png
+542 silly gunzTarPerm extractEntry tests/unicycle.jpg
+543 silly gunzTarPerm extractEntry vendor/cookie/index.js
+544 silly gunzTarPerm extractEntry vendor/cookie/jar.js
+545 silly gunzTarPerm extractEntry node_modules/form-data/package.json
+546 silly gunzTarPerm extractEntry node_modules/form-data/.npmignore
+547 silly gunzTarPerm extractEntry node_modules/form-data/Makefile
+548 silly gunzTarPerm extractEntry node_modules/form-data/Readme.md
+549 silly gunzTarPerm extractEntry node_modules/form-data/lib/form_data.js
+550 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-project
+551 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-workspace
+552 silly gunzTarPerm extractEntry node_modules/form-data/test/common.js
+553 silly gunzTarPerm extractEntry node_modules/form-data/test/run.js
+554 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/bacon.txt
+555 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/unicycle.jpg
+556 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-form-get-length.js
+557 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-get-boundary.js
+558 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-http-response.js
+559 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-pipe.js
+560 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-submit.js
+561 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/package.json
+562 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/README.md
+563 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/LICENSE
+564 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/index.js
+565 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/dist/async.min.js
+566 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.js
+567 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.css
+568 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/Makefile
+569 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/.gitmodules
+570 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/lib/async.js
+571 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/nodelint.cfg
+572 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/async.min.js.gzip
+573 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test-async.js
+574 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/.swp
+575 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test.html
+576 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/package.json
+577 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/.npmignore
+578 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/License
+579 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Makefile
+580 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Readme.md
+581 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js
+582 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/common.js
+583 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/run.js
+584 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt
+585 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt
+586 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js
+587 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js
+588 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js
+589 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js
+590 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js
+591 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js
+592 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+593 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+594 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License
+595 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+596 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+597 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+598 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+599 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+600 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+601 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+602 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+603 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+604 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+605 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+606 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+607 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+608 silly gunzTarPerm extractEntry node_modules/mime/package.json
+609 silly gunzTarPerm extractEntry node_modules/mime/README.md
+610 silly gunzTarPerm extractEntry node_modules/mime/LICENSE
+611 silly gunzTarPerm extractEntry node_modules/mime/mime.js
+612 silly gunzTarPerm extractEntry node_modules/mime/test.js
+613 silly gunzTarPerm extractEntry node_modules/mime/types/mime.types
+614 silly gunzTarPerm extractEntry node_modules/mime/types/node.types
+615 silly lockFile 1d0d1df6-chner-npm-request-2-11-4-package tar:///Users/tristandaeschner/.npm/request/2.11.4/package
+616 silly lockFile 1d0d1df6-chner-npm-request-2-11-4-package tar:///Users/tristandaeschner/.npm/request/2.11.4/package
+617 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+618 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+619 verbose chmod /Users/tristandaeschner/.npm/request/2.11.4/package.tgz 644
+620 verbose chown /Users/tristandaeschner/.npm/request/2.11.4/package.tgz [ 502, 20 ]
+621 silly lockFile ceb4f909-s-org-request-request-2-11-4-tgz https://registry.npmjs.org/request/-/request-2.11.4.tgz
+622 silly lockFile ceb4f909-s-org-request-request-2-11-4-tgz https://registry.npmjs.org/request/-/request-2.11.4.tgz
+623 silly lockFile 228b00c3-request-2-11-4 request@2.11.4
+624 silly lockFile 228b00c3-request-2-11-4 request@2.11.4
+625 silly resolved [ { name: 'debug',
+625 silly resolved     version: '0.7.4',
+625 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+625 silly resolved     description: 'small debugging utility',
+625 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+625 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+625 silly resolved     dependencies: {},
+625 silly resolved     devDependencies: { mocha: '*' },
+625 silly resolved     main: 'lib/debug.js',
+625 silly resolved     browser: './debug.js',
+625 silly resolved     engines: { node: '*' },
+625 silly resolved     files: [ 'lib/debug.js', 'debug.js', 'index.js' ],
+625 silly resolved     component: { scripts: [Object] },
+625 silly resolved     readme: '# debug\n\n  tiny node.js debugging utility modelled after node core\'s debugging technique.\n\n## Installation\n\n```\n$ npm install debug\n```\n\n## Usage\n\n With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n \nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stderr is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n  _(NOTE: Debug now uses stderr instead of stdout, so the correct shell command for this example is actually `DEBUG=* node example/worker 2> out &`)_\n  \n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n  \n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser". \n\n## Wildcards\n\n  The "*" character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect.compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=* -connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n Debug works in the browser as well, currently persisted by `localStorage`. For example if you have `worker:a` and `worker:b` as shown below, and wish to debug both type `debug.enable(\'worker:*\')` in the console and refresh the page, this will remain until you disable with `debug.disable()`. \n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1200);\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+625 silly resolved     readmeFilename: 'Readme.md',
+625 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+625 silly resolved     homepage: 'https://github.com/visionmedia/debug',
+625 silly resolved     _id: 'debug@0.7.4',
+625 silly resolved     dist: { shasum: 'e38ee18efc4268fc7f8a2a81c812c44dffd8bdee' },
+625 silly resolved     _from: 'debug@0.7.4',
+625 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-0.7.4.tgz' },
+625 silly resolved   { name: 'optimist',
+625 silly resolved     version: '0.3.4',
+625 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+625 silly resolved     main: './index.js',
+625 silly resolved     directories: { lib: '.', test: 'test', example: 'example' },
+625 silly resolved     dependencies: { wordwrap: '~0.0.2' },
+625 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.2.4' },
+625 silly resolved     scripts: { test: 'tap ./test/*.js' },
+625 silly resolved     repository:
+625 silly resolved      { type: 'git',
+625 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+625 silly resolved     keywords:
+625 silly resolved      [ 'argument',
+625 silly resolved        'args',
+625 silly resolved        'option',
+625 silly resolved        'parser',
+625 silly resolved        'parsing',
+625 silly resolved        'cli',
+625 silly resolved        'command' ],
+625 silly resolved     author:
+625 silly resolved      { name: 'James Halliday',
+625 silly resolved        email: 'mail@substack.net',
+625 silly resolved        url: 'http://substack.net' },
+625 silly resolved     license: 'MIT/X11',
+625 silly resolved     engine: { node: '>=0.4' },
+625 silly resolved     readme: 'optimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+625 silly resolved     readmeFilename: 'README.markdown',
+625 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+625 silly resolved     homepage: 'https://github.com/substack/node-optimist',
+625 silly resolved     _id: 'optimist@0.3.4',
+625 silly resolved     dist: { shasum: '1178301d376ed9d68def8e9e4672e7771cc16391' },
+625 silly resolved     _from: 'optimist@0.3.4',
+625 silly resolved     _resolved: 'https://registry.npmjs.org/optimist/-/optimist-0.3.4.tgz' },
+625 silly resolved   { name: 'request',
+625 silly resolved     description: 'Simplified HTTP request client.',
+625 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+625 silly resolved     version: '2.11.4',
+625 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+625 silly resolved     repository: { type: 'git', url: 'http://github.com/mikeal/request.git' },
+625 silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+625 silly resolved     engines: [ 'node >= 0.3.6' ],
+625 silly resolved     main: './main',
+625 silly resolved     dependencies: { 'form-data': '~0.0.3', mime: '~1.2.7' },
+625 silly resolved     bundleDependencies: [ 'form-data', 'mime' ],
+625 silly resolved     scripts: { test: 'node tests/run.js' },
+625 silly resolved     readme: '# Request -- Simplified HTTP request method\n\n## Install\n\n<pre>\n  npm install request\n</pre>\n\nOr from source:\n\n<pre>\n  git clone git://github.com/mikeal/request.git \n  cd request\n  npm link\n</pre>\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```javascript\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Print the google web page.\n  }\n})\n```\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```javascript\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types, in this case `application/json`, and use the proper content-type in the PUT request if one is not already provided in the headers.\n\n```javascript\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also pipe to itself. When doing so the content-type and content-length will be preserved in the PUT headers.\n\n```javascript\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nNow let\'s get fancy.\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    } \n  }\n})\n```\n\nYou can also pipe() from a http.ServerRequest instance and to a http.ServerResponse instance. The HTTP method and headers will be sent as well as the entity-body data. Which means that, if you don\'t really care about security, you can do:\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since pipe() returns the destination stream in node 0.5.x you can do one line proxying :)\n\n```javascript\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```javascript\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\nUrl encoded forms are simple\n\n```javascript\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n```\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). You don\'t need to worry about piping the form object or setting the headers, `request` will handle that for you.\n\n```javascript\nvar r = request.post(\'http://service.com/upload\')\nvar form = r.form()\nform.append(\'my_field\', \'my_value\')\nform.append(\'my_buffer\', new Buffer([1, 2, 3]))\nform.append(\'my_file\', fs.createReadStream(path.join(__dirname, \'doodle.png\'))\nform.append(\'remote_file\', request(\'http://google.com/doodle.png\'))\n```\n\n## OAuth Signing\n\n```javascript\n// Twitter OAuth\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Assume by some stretch of magic you aquired the verifier\n  var access_token = qs.parse(body)\n    , oauth = \n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: access_token.oauth_token\n      , verifier: VERIFIER\n      , token_secret: access_token.oauth_token_secret\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    var perm_token = qs.parse(body)\n      , oauth = \n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_token.oauth_token\n        , token_secret: perm_token.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1/users/show.json?\'\n      , params = \n        { screen_name: perm_token.screen_name\n        , user_id: perm_token.user_id\n        }\n      ;\n    url += qs.stringify(params)\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\n\n\n### request(options, callback)\n\nThe first argument can be either a url or an options object. The only required option is uri, all others are optional.\n\n* `uri` || `url` - fully qualified uri or a parsed url object from url.parse()\n* `qs` - object containing querystring values to be appended to the uri\n* `method` - http method, defaults to GET\n* `headers` - http headers, defaults to {}\n* `body` - entity body for POST and PUT requests. Must be buffer or string.\n* `form` - when passed an object this will set `body` but to a querystring representation of value and adds `Content-type: application/x-www-form-urlencoded; charset=utf-8` header. When passed no option a FormData instance is returned that will be piped to request.\n* `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as json.\n* `multipart` - (experimental) array of objects which contains their own headers and `body` attribute. Sends `multipart/related` request. See example below.\n* `followRedirect` - follow HTTP 3xx responses as redirects. defaults to true.\n* `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects. defaults to false.\n* `maxRedirects` - the maximum number of redirects to follow, defaults to 10.\n* `encoding` - Encoding to be used on `setEncoding` of response data. If set to `null`, the body is returned as a Buffer.\n* `pool` - A hash object containing the agents for these requests. If omitted this request will use the global pool which is set to node\'s default maxSockets.\n* `pool.maxSockets` - Integer containing the maximum amount of sockets in the pool.\n* `timeout` - Integer containing the number of milliseconds to wait for a request to respond before aborting the request\t\n* `proxy` - An HTTP proxy to be used. Support proxy Auth with Basic Auth the same way it\'s supported with the `url` parameter by embedding the auth info in the uri.\n* `oauth` - Options for OAuth HMAC-SHA1 signing, see documentation above.\n* `strictSSL` - Set to `true` to require that SSL certificates be valid. Note: to use your own certificate authority, you need to specify an agent that was created with that ca as an option.\n* `jar` - Set to `false` if you don\'t want cookies to be remembered for future use or define your custom cookie jar (see examples section)\n\n\nThe callback argument gets 3 arguments. The first is an error when applicable (usually from the http.Client option not the http.ClientRequest object). The second in an http.ClientResponse object. The third is the response body String or Buffer.\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n### request.defaults(options)  \n  \nThis method returns a wrapper around the normal request API that defaults to whatever options you pass in to it.\n\n### request.put\n\nSame as request() but defaults to `method: "PUT"`.\n\n```javascript\nrequest.put(url)\n```\n\n### request.post\n\nSame as request() but defaults to `method: "POST"`.\n\n```javascript\nrequest.post(url)\n```\n\n### request.head\n\nSame as request() but defaults to `method: "HEAD"`.\n\n```javascript\nrequest.head(url)\n```\n\n### request.del\n\nSame as request() but defaults to `method: "DELETE"`.\n\n```javascript\nrequest.del(url)\n```\n\n### request.get\n\nAlias to normal request method for uniformity.\n\n```javascript\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```javascript\nrequest.cookie(\'cookie_string_here\')\n```\n### request.jar\n\nFunction that creates a new cookie jar.\n\n```javascript\nrequest.jar()\n```\n\n\n## Examples:\n\n```javascript\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart: \n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ] \n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\nCookies are enabled by default (so they can be used in subsequent requests). To disable cookies set jar to false (either in defaults or in the options sent).\n\n```javascript\nvar request = request.defaults({jar: false})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nIf you to use a custom cookie jar (instead of letting request use its own global cookie jar) you do so by setting the jar default or by specifying it as an option:\n\n```javascript\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\nOR\n\n```javascript\nvar j = request.jar()\nvar cookie = request.cookie(\'your_cookie_here\')\nj.add(cookie)\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n',
+625 silly resolved     readmeFilename: 'README.md',
+625 silly resolved     homepage: 'https://github.com/mikeal/request',
+625 silly resolved     _id: 'request@2.11.4',
+625 silly resolved     dist: { shasum: '0f34cbbb2c107f336d2069eb1171227127086583' },
+625 silly resolved     _from: 'request@2.11.4',
+625 silly resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.11.4.tgz' } ]
+626 info install debug@0.7.4 into /usr/local/lib/node_modules/localtunnel
+627 info install optimist@0.3.4 into /usr/local/lib/node_modules/localtunnel
+628 info install request@2.11.4 into /usr/local/lib/node_modules/localtunnel
+629 info installOne debug@0.7.4
+630 info installOne optimist@0.3.4
+631 info installOne request@2.11.4
+632 info /usr/local/lib/node_modules/localtunnel/node_modules/debug unbuild
+633 info /usr/local/lib/node_modules/localtunnel/node_modules/optimist unbuild
+634 info /usr/local/lib/node_modules/localtunnel/node_modules/request unbuild
+635 verbose tar unpack /Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+636 silly lockFile 3a3f2a38-s-localtunnel-node-modules-debug tar:///usr/local/lib/node_modules/localtunnel/node_modules/debug
+637 verbose lock tar:///usr/local/lib/node_modules/localtunnel/node_modules/debug /Users/tristandaeschner/.npm/3a3f2a38-s-localtunnel-node-modules-debug.lock
+638 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+639 verbose lock tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz /Users/tristandaeschner/.npm/69908938-hner-npm-debug-0-7-4-package-tgz.lock
+640 verbose tar unpack /Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+641 silly lockFile d6f12798-ocaltunnel-node-modules-optimist tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist
+642 verbose lock tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist /Users/tristandaeschner/.npm/d6f12798-ocaltunnel-node-modules-optimist.lock
+643 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+644 verbose lock tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz /Users/tristandaeschner/.npm/eb75ba49-r-npm-optimist-0-3-4-package-tgz.lock
+645 verbose tar unpack /Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+646 silly lockFile effb299b-localtunnel-node-modules-request tar:///usr/local/lib/node_modules/localtunnel/node_modules/request
+647 verbose lock tar:///usr/local/lib/node_modules/localtunnel/node_modules/request /Users/tristandaeschner/.npm/effb299b-localtunnel-node-modules-request.lock
+648 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+649 verbose lock tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz /Users/tristandaeschner/.npm/2814a931-r-npm-request-2-11-4-package-tgz.lock
+650 silly gunzTarPerm modes [ '755', '644' ]
+651 silly gunzTarPerm modes [ '755', '644' ]
+652 silly gunzTarPerm modes [ '755', '644' ]
+653 silly gunzTarPerm extractEntry package.json
+654 silly gunzTarPerm extractEntry package.json
+655 silly gunzTarPerm extractEntry package.json
+656 silly gunzTarPerm extractEntry debug.js
+657 silly gunzTarPerm extractEntry index.js
+658 silly gunzTarPerm extractEntry README.md
+659 silly gunzTarPerm extractEntry LICENSE
+660 silly gunzTarPerm extractEntry LICENSE
+661 silly gunzTarPerm extractEntry index.js
+662 silly gunzTarPerm extractEntry Readme.md
+663 silly gunzTarPerm extractEntry lib/debug.js
+664 silly gunzTarPerm extractEntry aws.js
+665 silly gunzTarPerm extractEntry .travis.yml
+666 silly gunzTarPerm extractEntry README.markdown
+667 silly gunzTarPerm extractEntry example/bool.js
+668 silly gunzTarPerm extractEntry forever.js
+669 silly gunzTarPerm extractEntry main.js
+670 silly gunzTarPerm extractEntry example/default_singles.js
+671 silly gunzTarPerm extractEntry example/divide.js
+672 silly gunzTarPerm extractEntry example/line_count.js
+673 silly gunzTarPerm extractEntry example/default_hash.js
+674 silly gunzTarPerm extractEntry uuid.js
+675 silly gunzTarPerm extractEntry tunnel.js
+676 silly lockFile 3a3f2a38-s-localtunnel-node-modules-debug tar:///usr/local/lib/node_modules/localtunnel/node_modules/debug
+677 silly lockFile 3a3f2a38-s-localtunnel-node-modules-debug tar:///usr/local/lib/node_modules/localtunnel/node_modules/debug
+678 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+679 silly lockFile 69908938-hner-npm-debug-0-7-4-package-tgz tar:///Users/tristandaeschner/.npm/debug/0.7.4/package.tgz
+680 info preinstall debug@0.7.4
+681 silly gunzTarPerm extractEntry oauth.js
+682 silly gunzTarPerm extractEntry tests/test-https-strict.js
+683 verbose readDependencies using package.json deps
+684 verbose readDependencies using package.json deps
+685 silly resolved []
+686 verbose about to build /usr/local/lib/node_modules/localtunnel/node_modules/debug
+687 info build /usr/local/lib/node_modules/localtunnel/node_modules/debug
+688 verbose linkStuff [ true,
+688 verbose linkStuff   '/usr/local/lib/node_modules',
+688 verbose linkStuff   false,
+688 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules' ]
+689 info linkStuff debug@0.7.4
+690 verbose linkBins debug@0.7.4
+691 verbose linkMans debug@0.7.4
+692 verbose rebuildBundles debug@0.7.4
+693 silly gunzTarPerm extractEntry example/line_count_wrap.js
+694 silly gunzTarPerm extractEntry example/nonopt.js
+695 info install debug@0.7.4
+696 info postinstall debug@0.7.4
+697 silly gunzTarPerm extractEntry tests/test-headers.js
+698 silly gunzTarPerm extractEntry tests/test-httpModule.js
+699 silly gunzTarPerm extractEntry example/reflect.js
+700 silly gunzTarPerm extractEntry example/short.js
+701 silly gunzTarPerm extractEntry example/string.js
+702 silly gunzTarPerm extractEntry example/boolean_single.js
+703 silly gunzTarPerm extractEntry example/usage-options.js
+704 silly gunzTarPerm extractEntry example/boolean_double.js
+705 silly gunzTarPerm extractEntry example/xup.js
+706 silly gunzTarPerm extractEntry example/line_count_options.js
+707 silly gunzTarPerm extractEntry test/_.js
+708 silly gunzTarPerm extractEntry test/parse.js
+709 silly gunzTarPerm extractEntry test/usage.js
+710 silly gunzTarPerm extractEntry test/_/argv.js
+711 silly gunzTarPerm extractEntry tests/run.js
+712 silly gunzTarPerm extractEntry tests/test-form.js
+713 silly gunzTarPerm extractEntry tests/test-oauth.js
+714 silly gunzTarPerm extractEntry tests/test-params.js
+715 silly gunzTarPerm extractEntry test/_/bin.js
+716 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+717 silly gunzTarPerm extractEntry tests/test-pipes.js
+718 silly gunzTarPerm extractEntry tests/test-pool.js
+719 silly gunzTarPerm extractEntry tests/test-follow-all.js
+720 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+721 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+722 silly gunzTarPerm extractEntry tests/test-proxy.js
+723 silly gunzTarPerm extractEntry tests/test-errors.js
+724 silly gunzTarPerm extractEntry tests/test-qs.js
+725 silly gunzTarPerm extractEntry tests/test-defaults.js
+726 silly gunzTarPerm extractEntry tests/test-redirect.js
+727 silly gunzTarPerm extractEntry tests/test-cookiejar.js
+728 silly gunzTarPerm extractEntry tests/test-s3.js
+729 silly gunzTarPerm extractEntry tests/test-cookie.js
+730 silly gunzTarPerm extractEntry tests/test-timeout.js
+731 silly gunzTarPerm extractEntry tests/test-body.js
+732 silly gunzTarPerm extractEntry tests/test-toJSON.js
+733 silly gunzTarPerm extractEntry tests/server.js
+734 silly gunzTarPerm extractEntry tests/test-tunnel.js
+735 silly gunzTarPerm extractEntry tests/test-https.js
+736 silly gunzTarPerm extractEntry tests/squid.conf
+737 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+738 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+739 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+740 silly lockFile d6f12798-ocaltunnel-node-modules-optimist tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist
+741 silly lockFile d6f12798-ocaltunnel-node-modules-optimist tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist
+742 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+743 silly lockFile eb75ba49-r-npm-optimist-0-3-4-package-tgz tar:///Users/tristandaeschner/.npm/optimist/0.3.4/package.tgz
+744 info preinstall optimist@0.3.4
+745 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+746 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+747 verbose readDependencies using package.json deps
+748 verbose readDependencies using package.json deps
+749 verbose cache add [ 'wordwrap@~0.0.2', null ]
+750 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+751 verbose parsed url { protocol: null,
+751 verbose parsed url   slashes: null,
+751 verbose parsed url   auth: null,
+751 verbose parsed url   host: null,
+751 verbose parsed url   port: null,
+751 verbose parsed url   hostname: null,
+751 verbose parsed url   hash: null,
+751 verbose parsed url   search: null,
+751 verbose parsed url   query: null,
+751 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+751 verbose parsed url   path: 'wordwrap@~0.0.2',
+751 verbose parsed url   href: 'wordwrap@~0.0.2' }
+752 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+753 verbose parsed url { protocol: null,
+753 verbose parsed url   slashes: null,
+753 verbose parsed url   auth: null,
+753 verbose parsed url   host: null,
+753 verbose parsed url   port: null,
+753 verbose parsed url   hostname: null,
+753 verbose parsed url   hash: null,
+753 verbose parsed url   search: null,
+753 verbose parsed url   query: null,
+753 verbose parsed url   pathname: '~0.0.2',
+753 verbose parsed url   path: '~0.0.2',
+753 verbose parsed url   href: '~0.0.2' }
+754 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+755 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+756 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+757 verbose lock wordwrap@~0.0.2 /Users/tristandaeschner/.npm/8bd42136-wordwrap-0-0-2.lock
+758 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+759 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+760 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+761 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+762 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+763 verbose url raw wordwrap
+764 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+765 verbose url resolved https://registry.npmjs.org/wordwrap
+766 info trying registry request attempt 1 at 17:19:05
+767 verbose etag "BWZBG6OAWP3BCANDD0T9BQOBO"
+768 http GET https://registry.npmjs.org/wordwrap
+769 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+770 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+771 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+772 silly gunzTarPerm extractEntry tests/ssl/test.crt
+773 silly gunzTarPerm extractEntry tests/ssl/test.key
+774 silly gunzTarPerm extractEntry tests/googledoodle.png
+775 silly gunzTarPerm extractEntry tests/unicycle.jpg
+776 silly gunzTarPerm extractEntry vendor/cookie/index.js
+777 silly gunzTarPerm extractEntry vendor/cookie/jar.js
+778 silly gunzTarPerm extractEntry node_modules/form-data/package.json
+779 silly gunzTarPerm extractEntry node_modules/form-data/.npmignore
+780 silly gunzTarPerm extractEntry node_modules/form-data/Makefile
+781 silly gunzTarPerm extractEntry node_modules/form-data/Readme.md
+782 silly gunzTarPerm extractEntry node_modules/form-data/lib/form_data.js
+783 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-project
+784 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-workspace
+785 silly gunzTarPerm extractEntry node_modules/form-data/test/common.js
+786 silly gunzTarPerm extractEntry node_modules/form-data/test/run.js
+787 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/bacon.txt
+788 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/unicycle.jpg
+789 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-form-get-length.js
+790 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-get-boundary.js
+791 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-http-response.js
+792 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-pipe.js
+793 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-submit.js
+794 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/package.json
+795 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/README.md
+796 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/LICENSE
+797 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/index.js
+798 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/dist/async.min.js
+799 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.js
+800 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.css
+801 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/Makefile
+802 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/.gitmodules
+803 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/lib/async.js
+804 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/nodelint.cfg
+805 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/async.min.js.gzip
+806 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test-async.js
+807 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/.swp
+808 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test.html
+809 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/package.json
+810 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/.npmignore
+811 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/License
+812 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Makefile
+813 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Readme.md
+814 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js
+815 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/common.js
+816 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/run.js
+817 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt
+818 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt
+819 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js
+820 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js
+821 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js
+822 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js
+823 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js
+824 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js
+825 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+826 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+827 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License
+828 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+829 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+830 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+831 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+832 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+833 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+834 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+835 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+836 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+837 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+838 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+839 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+840 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+841 silly gunzTarPerm extractEntry node_modules/mime/package.json
+842 silly gunzTarPerm extractEntry node_modules/mime/README.md
+843 silly gunzTarPerm extractEntry node_modules/mime/LICENSE
+844 silly gunzTarPerm extractEntry node_modules/mime/mime.js
+845 http 304 https://registry.npmjs.org/wordwrap
+846 silly registry.get cb [ 304,
+846 silly registry.get   { date: 'Fri, 07 Nov 2014 16:19:05 GMT',
+846 silly registry.get     server: 'Apache',
+846 silly registry.get     via: '1.1 varnish',
+846 silly registry.get     'last-modified': 'Fri, 07 Nov 2014 16:15:51 GMT',
+846 silly registry.get     'cache-control': 'max-age=60',
+846 silly registry.get     etag: '"BWZBG6OAWP3BCANDD0T9BQOBO"',
+846 silly registry.get     age: '8',
+846 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+846 silly registry.get     'x-cache': 'HIT',
+846 silly registry.get     'x-cache-hits': '80',
+846 silly registry.get     'x-timer': 'S1415377145.854834,VS0,VE0',
+846 silly registry.get     vary: 'Accept',
+846 silly registry.get     'content-length': '0',
+846 silly registry.get     'keep-alive': 'timeout=10, max=50',
+846 silly registry.get     connection: 'Keep-Alive' } ]
+847 verbose etag wordwrap from cache
+848 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+849 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+850 verbose addNamed [ 'wordwrap', '0.0.2' ]
+851 verbose addNamed [ '0.0.2', '0.0.2' ]
+852 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+853 verbose lock wordwrap@0.0.2 /Users/tristandaeschner/.npm/24a694c8-wordwrap-0-0-2.lock
+854 silly gunzTarPerm extractEntry node_modules/mime/test.js
+855 silly gunzTarPerm extractEntry node_modules/mime/types/mime.types
+856 silly gunzTarPerm extractEntry node_modules/mime/types/node.types
+857 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+858 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+859 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+860 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+861 silly resolved [ { name: 'wordwrap',
+861 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+861 silly resolved     version: '0.0.2',
+861 silly resolved     repository:
+861 silly resolved      { type: 'git',
+861 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+861 silly resolved     main: './index.js',
+861 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+861 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+861 silly resolved     scripts: { test: 'expresso' },
+861 silly resolved     devDependencies: { expresso: '=0.7.x' },
+861 silly resolved     engines: { node: '>=0.4.0' },
+861 silly resolved     license: 'MIT/X11',
+861 silly resolved     author:
+861 silly resolved      { name: 'James Halliday',
+861 silly resolved        email: 'mail@substack.net',
+861 silly resolved        url: 'http://substack.net' },
+861 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+861 silly resolved     readmeFilename: 'README.markdown',
+861 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+861 silly resolved     homepage: 'https://github.com/substack/node-wordwrap',
+861 silly resolved     _id: 'wordwrap@0.0.2',
+861 silly resolved     _from: 'wordwrap@~0.0.2' } ]
+862 info install wordwrap@0.0.2 into /usr/local/lib/node_modules/localtunnel/node_modules/optimist
+863 info installOne wordwrap@0.0.2
+864 info /usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap unbuild
+865 verbose tar unpack /Users/tristandaeschner/.npm/wordwrap/0.0.2/package.tgz
+866 silly lockFile 516ee076-s-optimist-node-modules-wordwrap tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap
+867 verbose lock tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap /Users/tristandaeschner/.npm/516ee076-s-optimist-node-modules-wordwrap.lock
+868 silly lockFile 7435fc14-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/tristandaeschner/.npm/wordwrap/0.0.2/package.tgz
+869 verbose lock tar:///Users/tristandaeschner/.npm/wordwrap/0.0.2/package.tgz /Users/tristandaeschner/.npm/7435fc14-r-npm-wordwrap-0-0-2-package-tgz.lock
+870 silly gunzTarPerm modes [ '755', '644' ]
+871 silly gunzTarPerm extractEntry package.json
+872 silly gunzTarPerm extractEntry .npmignore
+873 silly gunzTarPerm extractEntry index.js
+874 silly gunzTarPerm extractEntry README.markdown
+875 silly gunzTarPerm extractEntry example/center.js
+876 silly gunzTarPerm extractEntry example/meat.js
+877 silly gunzTarPerm extractEntry test/break.js
+878 silly gunzTarPerm extractEntry test/wrap.js
+879 silly gunzTarPerm extractEntry test/idleness.txt
+880 silly lockFile 516ee076-s-optimist-node-modules-wordwrap tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap
+881 silly lockFile 516ee076-s-optimist-node-modules-wordwrap tar:///usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap
+882 silly lockFile 7435fc14-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/tristandaeschner/.npm/wordwrap/0.0.2/package.tgz
+883 silly lockFile 7435fc14-r-npm-wordwrap-0-0-2-package-tgz tar:///Users/tristandaeschner/.npm/wordwrap/0.0.2/package.tgz
+884 info preinstall wordwrap@0.0.2
+885 verbose readDependencies using package.json deps
+886 verbose readDependencies using package.json deps
+887 silly resolved []
+888 verbose about to build /usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap
+889 info build /usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules/wordwrap
+890 verbose linkStuff [ true,
+890 verbose linkStuff   '/usr/local/lib/node_modules',
+890 verbose linkStuff   false,
+890 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules/optimist/node_modules' ]
+891 info linkStuff wordwrap@0.0.2
+892 verbose linkBins wordwrap@0.0.2
+893 verbose linkMans wordwrap@0.0.2
+894 verbose rebuildBundles wordwrap@0.0.2
+895 info install wordwrap@0.0.2
+896 info postinstall wordwrap@0.0.2
+897 verbose about to build /usr/local/lib/node_modules/localtunnel/node_modules/optimist
+898 info build /usr/local/lib/node_modules/localtunnel/node_modules/optimist
+899 verbose linkStuff [ true,
+899 verbose linkStuff   '/usr/local/lib/node_modules',
+899 verbose linkStuff   false,
+899 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules' ]
+900 info linkStuff optimist@0.3.4
+901 verbose linkBins optimist@0.3.4
+902 verbose linkMans optimist@0.3.4
+903 verbose rebuildBundles optimist@0.3.4
+904 verbose rebuildBundles [ 'wordwrap' ]
+905 info install optimist@0.3.4
+906 info postinstall optimist@0.3.4
+907 silly lockFile effb299b-localtunnel-node-modules-request tar:///usr/local/lib/node_modules/localtunnel/node_modules/request
+908 silly lockFile effb299b-localtunnel-node-modules-request tar:///usr/local/lib/node_modules/localtunnel/node_modules/request
+909 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+910 silly lockFile 2814a931-r-npm-request-2-11-4-package-tgz tar:///Users/tristandaeschner/.npm/request/2.11.4/package.tgz
+911 info preinstall request@2.11.4
+912 verbose readDependencies using package.json deps
+913 verbose readDependencies using package.json deps
+914 silly resolved []
+915 verbose about to build /usr/local/lib/node_modules/localtunnel/node_modules/request
+916 info build /usr/local/lib/node_modules/localtunnel/node_modules/request
+917 verbose linkStuff [ true,
+917 verbose linkStuff   '/usr/local/lib/node_modules',
+917 verbose linkStuff   false,
+917 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules' ]
+918 info linkStuff request@2.11.4
+919 verbose linkBins request@2.11.4
+920 verbose linkMans request@2.11.4
+921 verbose rebuildBundles request@2.11.4
+922 verbose rebuildBundles [ 'form-data', 'mime' ]
+923 verbose rebuild bundle /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data
+924 info build /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/form-data
+925 info preinstall form-data@0.0.3
+926 verbose linkStuff [ false,
+926 verbose linkStuff   false,
+926 verbose linkStuff   false,
+926 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules' ]
+927 info linkStuff form-data@0.0.3
+928 verbose linkBins form-data@0.0.3
+929 verbose linkMans form-data@0.0.3
+930 verbose rebuildBundles form-data@0.0.3
+931 verbose rebuildBundles [ 'async', 'combined-stream' ]
+932 info install form-data@0.0.3
+933 info postinstall form-data@0.0.3
+934 verbose rebuild bundle /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/mime
+935 info build /usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules/mime
+936 info preinstall mime@1.2.7
+937 verbose linkStuff [ false,
+937 verbose linkStuff   false,
+937 verbose linkStuff   false,
+937 verbose linkStuff   '/usr/local/lib/node_modules/localtunnel/node_modules/request/node_modules' ]
+938 info linkStuff mime@1.2.7
+939 verbose linkBins mime@1.2.7
+940 verbose linkMans mime@1.2.7
+941 verbose rebuildBundles mime@1.2.7
+942 info install mime@1.2.7
+943 info postinstall mime@1.2.7
+944 info install request@2.11.4
+945 info postinstall request@2.11.4
+946 verbose about to build /usr/local/lib/node_modules/localtunnel
+947 info build /usr/local/lib/node_modules/localtunnel
+948 verbose linkStuff [ true,
+948 verbose linkStuff   '/usr/local/lib/node_modules',
+948 verbose linkStuff   true,
+948 verbose linkStuff   '/usr/local/lib/node_modules' ]
+949 info linkStuff localtunnel@1.5.0
+950 verbose linkBins localtunnel@1.5.0
+951 verbose link bins [ { lt: './bin/client' }, '/usr/local/bin', true ]
+952 verbose linkMans localtunnel@1.5.0
+953 verbose rebuildBundles localtunnel@1.5.0
+954 verbose rebuildBundles [ 'debug', 'optimist', 'request' ]
+955 info install localtunnel@1.5.0
+956 info postinstall localtunnel@1.5.0
+957 error peerinvalid The package yo does not satisfy its siblings' peerDependencies requirements!
+957 error peerinvalid Peer generator-mocha@0.1.6 wants yo@>=1.0.0
+957 error peerinvalid Peer generator-webapp@0.5.1 wants yo@>=1.2.0
+958 error System Darwin 14.0.0
+959 error command "node" "/usr/local/bin/npm" "install" "-g" "localtunnel"
+960 error cwd /Users/tristandaeschner/projects/smallmeetings
+961 error node -v v0.10.24
+962 error npm -v 1.3.21
+963 error code EPEERINVALID
+964 verbose exit [ 1, true ]
