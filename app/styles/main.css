@@ -69,11 +69,11 @@ body {
 }
 
 .logo {
-  background-image: url(../images/wisembly.png);
+  background-image: url(../images/solid.png);
   text-indent: -100%;
-  width: 130px;
-  height: 30px;
-  background-size: 130px;
+  width: 89px;
+  height: 25px;
+  background-size: 89px;
   overflow: hidden;
 }
 h4 {
