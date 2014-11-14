@@ -13,7 +13,7 @@ body {
   /*border-bottom: 1px solid #e5e5e5;*/
   padding-top: 34px;
   padding-right: 40px;
-  padding-bottom: 34px;
+  padding-bottom: 0;
   padding-left: 40px;
   background-color: #83B4C6;
   background-image: url(../images/cover.png);
@@ -21,7 +21,6 @@ body {
   background-size: cover;
   background-position: center center;
   color: #fff;
-  padding-bottom: 50px;
   text-align: center;
   margin-bottom: 50px;
   position: relative;
@@ -43,7 +42,9 @@ body {
   position: relative;
   z-index: 2;
 }
-
+.header-text {
+  padding-right: 40px;
+}
 .header h1 {
   font-weight: 600;
   font-size: 32px;
@@ -58,6 +59,12 @@ body {
 .header .lead {
   font-size: 18px;
   line-height: 24px;
+  margin-bottom: 40px;
+}
+.header img {
+  margin-bottom: 0;
+}
+.header .btn {
   margin-bottom: 40px;
 }
 
@@ -78,6 +85,7 @@ h4 {
 p {
   line-height: 22px;
   font-size: 16px;
+  margin-bottom: 44px;
 }
 img {
   display: block;
@@ -87,24 +95,20 @@ img {
   text-align: center;
 }
 .feature {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .feature h4 {
   font-size: 20px;
   color: #07698D;
-}
-.prepared {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 .prepared h4 {
   margin-top: 30px;
 }
-.focused h4 {
-  margin-top: 70px;
-}
 .technical {
   color: #fff;
-  background-color: #46B589;
+  background-color: #07698D;
 }
 .technical .row {
   padding: 40px 0;
@@ -221,6 +225,11 @@ img {
   }
   .header {
     text-align: left;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-text {
+    padding-right: 0;
   }
 }
 
