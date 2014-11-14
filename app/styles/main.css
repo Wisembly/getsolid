@@ -26,7 +26,10 @@ body {
   position: relative;
 }
 
-.header:after {
+.header .carousel-inner {
+  position: relative;
+}
+.header .carousel-inner:after {
   content: '';
   z-index: 1;
   position: absolute;
@@ -35,12 +38,25 @@ body {
   bottom: 0;
   left: 0;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.3;
+}
+.header .carousel-control {
+  z-index: 2;
+}
+
+.header .carousel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  overflow: hidden;
 }
 
 .header .container {
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 .header-text {
   padding-right: 40px;
