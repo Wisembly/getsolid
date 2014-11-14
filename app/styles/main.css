@@ -102,6 +102,9 @@ img {
   color: #07698D;
   margin-top: 0;
   margin-bottom: 20px;
+  border-left: 4px solid #E2E2E2;
+  padding-left: 15px;
+  margin-left: -19px;
 }
 .prepared h4 {
   margin-top: 30px;
