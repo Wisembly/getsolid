@@ -11,47 +11,18 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  padding-top: 34px;
+  padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 0;
   padding-left: 40px;
   background-color: #83B4C6;
-  background-image: url(../images/cover.png);
-  background-image: url(../images/meeting.jpg);
+  background-image: url(../images/photo-meeting.jpg);
   background-size: cover;
   background-position: center center;
   color: #fff;
   text-align: center;
   margin-bottom: 50px;
   position: relative;
-}
-
-.header .carousel-inner {
-  position: relative;
-}
-.header .carousel-inner:after {
-  content: '';
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 0.3;
-}
-.header .carousel-control {
-  z-index: 2;
-}
-
-.header .carousel {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 2;
-  overflow: hidden;
 }
 
 .header .container {
@@ -62,23 +33,23 @@ body {
   padding-right: 40px;
 }
 .header h1 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
   margin-bottom: 30px;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .header h3 {
   margin-top: 0;
   margin-bottom: 30px;
 }
 .header .lead {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 30px;
   margin-bottom: 40px;
 }
 .header img {
-  margin-bottom: 0;
+  margin-bottom: 70px;
 }
 .header .btn {
   margin-bottom: 40px;
@@ -87,9 +58,9 @@ body {
 .logo {
   background-image: url(../images/solid.png);
   text-indent: -100%;
-  width: 89px;
-  height: 25px;
-  background-size: 89px;
+  width: 68px;
+  height: 34px;
+  background-size: 68px;
   overflow: hidden;
 }
 h4 {
