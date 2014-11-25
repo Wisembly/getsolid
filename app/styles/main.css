@@ -22,6 +22,7 @@ body {
   color: #fff;
   text-align: center;
   position: relative;
+  margin-bottom: 50px;
 }
 
 .header .container {
@@ -88,7 +89,7 @@ img {
   margin-bottom: 50px;
   font-size: 28px;
   line-height: 40px;
-  /*color: #07698D;*/
+  opacity: 0.5;
 }
 .feature h4 {
   font-size: 20px;
@@ -125,14 +126,13 @@ img {
   background-color: #F9F9F9;
   padding: 50px 0;
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 50px;
 }
 .register h4,
 .register p {
   margin: 0 0 20px;
 }
 .register h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 .register .btn {
