@@ -64,10 +64,10 @@ body {
   overflow: hidden;
 }
 h4 {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 p {
   line-height: 24px;
@@ -89,13 +89,12 @@ img {
   margin-bottom: 50px;
   font-size: 28px;
   line-height: 40px;
-  opacity: 0.5;
+  color: #A8A8A8;
+  font-weight: 500;
 }
 .feature h4 {
-  font-size: 20px;
   color: #07698D;
   margin-top: 0;
-  margin-bottom: 20px;
   border-left: 4px solid #E2E2E2;
   padding-left: 15px;
   margin-left: -19px;
@@ -104,8 +103,7 @@ img {
   margin-top: 30px;
 }
 .technical {
-  color: #fff;
-  background-color: #07698D;
+  background-color: #F9F9F9;
 }
 .technical .row {
   padding: 40px 0 10px;
@@ -123,17 +121,20 @@ img {
 /* register */
 
 .register {
-  background-color: #F9F9F9;
-  padding: 50px 0;
+  background-color: #07698D;
+  padding: 60px 0;
   border-bottom: 1px solid #e5e5e5;
+  color: #fff;
 }
 .register h4,
 .register p {
   margin: 0 0 20px;
 }
 .register h4 {
-  font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 .register .btn {
   display: inline-block;
