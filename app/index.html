@@ -90,7 +90,7 @@
             <p>All participants receive a detailed summary of the meeting’s outcomes and also a list of their personal upcoming tasks. After all the meetings, a survey is automatically sent to all participants to get their feedback on the meeting's efficiency.</p>
           </div>
           <div class="col-sm-5">
-            <img src='images/receive-actionnable-summary.png' width='204' height='181'>
+            <img src='images/receive-actionnable-summary.png' width='266' height='221'>
           </div>
         </div>
 
@@ -113,15 +113,10 @@
     </div>
 
     <div class='register'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-sm-8'>
-            <h4>For the moment, Solid is in private beta and lets in new users every week. Hop on the list and start using it soon!</h4>
-          </div>
-          <div class='col-sm-4 tac'>
-            <a class="btn btn-default" id='prefinery_apply_link'>Get early access</a>
-          </div>
-        </div>
+      <div class='container tac'>
+        <h4>How does spending a full year in meetings sound to you?</h4>
+        <p>That's how much the average worker spends in meetings over his lifetime.</br> Sign up now and discover where you stand.</p>
+        <a class="btn btn-default" id='prefinery_second_button'>Get your meeting report now</a>
       </div>
     </div>
 
@@ -134,23 +129,20 @@
                 <a href='http://blog.getsolid.io'>Blog</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='mailto:contact@getsolid.io'>Contact</a>
               </li>
               <li>
-                <a href='#'>Terms of service</a>
+                <a href='/terms-of-service'>Terms of service</a>
               </li>
             </ul>
           </div>
-          <div class="col-sm-4 social-links hide">
+          <div class="col-sm-4 social-links">
             <ul class='nav nav-tabs'>
               <li>
-                <a href='#' class='twitter'>Twitter</a>
+                <a href='http://twitter.com/get_solid' class='twitter'>Solid on Twitter</a>
               </li>
               <li>
-                <a href='#' class='linkedin'>Linkedin</a>
-              </li>
-              <li>
-                <a href='#' class='facebook'>Facebook</a>
+                <a href='http://facebook.com/get_solid' class='facebook'>Solid on Facebook</a>
               </li>
             </ul>
           </div>
@@ -191,8 +183,9 @@
         <script src="bower_components/bootstrap/js/popover.js"></script>
         <script src="bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script> -->
+        <script src="bower_components/bootstrap/js/tab.js"></script>
         <script src="bower_components/bootstrap/js/carousel.js"></script>
+        -->
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
@@ -200,15 +193,15 @@
         <!-- endbuild -->
 
       <script type="text/javascript" src="https://www.prefinery.com/javascripts/widget2.js"></script>
-        <script type='text/javascript' charset='utf-8'>
-          var prefinery_apply_options = {
-            account: "wisembly",
-            beta_id: "4990",
-            link_id: "prefinery_apply_link",
-            link_class: "prefinery_apply",
-            version: 2
-          };
-          Prefinery.apply(prefinery_apply_options);
-        </script>
+      <script type='text/javascript' charset='utf-8'>
+        var prefinery_apply_options = {
+          account: "wisembly",
+          beta_id: "4990",
+          link_id: "prefinery_apply_link",
+          link_class: "prefinery_apply",
+          version: 2
+        };
+        Prefinery.apply(prefinery_apply_options);
+      </script>
 </body>
 </html>

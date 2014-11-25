@@ -101,7 +101,16 @@ img {
   background-color: #07698D;
 }
 .technical .row {
-  padding: 40px 0;
+  padding: 40px 0 10px;
+}
+.technical img {
+  margin-top: 25px;
+}
+.focused {
+  margin-bottom: 10px;
+}
+.actionable h4 {
+  margin-top: 30px;
 }
 
 /* register */
@@ -113,11 +122,11 @@ img {
 }
 .register h4,
 .register p {
+  margin: 0 0 20px;
 }
 .register h4 {
   font-size: 18px;
-  font-weight: 400;
-  margin: 0;
+  font-weight: 600;
 }
 .register .btn {
   display: inline-block;

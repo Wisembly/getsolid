@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+$('#prefinery_second_button');
