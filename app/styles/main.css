@@ -49,7 +49,7 @@ body {
   margin-bottom: 40px;
 }
 .header img {
-  margin-bottom: 70px;
+  margin-bottom: 0;
 }
 .header .btn {
   margin-bottom: 40px;
@@ -130,11 +130,16 @@ img {
 .register p {
   margin: 0 0 20px;
 }
+.register .small {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
 .register h4 {
   font-weight: bold;
   margin-bottom: 0;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .register .btn {
   display: inline-block;
