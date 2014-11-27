@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-semibold.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
   font-family:'Proxima Nova', Helvetica, Arial, sans-serif;
   color: #676E72;
@@ -38,6 +51,9 @@ body {
   line-height: 42px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.header h1 strong {
+  font-weight: 600;
 }
 .header h3 {
   margin-top: 0;
@@ -90,7 +106,7 @@ img {
   font-size: 28px;
   line-height: 40px;
   color: #A8A8A8;
-  font-weight: 500;
+  font-weight: 600;
 }
 .feature h4 {
   color: #07698D;
@@ -136,7 +152,7 @@ img {
   margin-bottom: 0;
 }
 .register h4 {
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 0;
   font-size: 18px;
   margin-bottom: 10px;
