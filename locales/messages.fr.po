@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: getsolid\n"
+"POT-Creation-Date: 2014-12-01 15:45+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Guillaume Potier <guillaume@wisembly.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-KeywordsList: _t\n"
+"X-Poedit-SearchPath-0: ../app\n"
+
+#: ../app/index.hbs:5
+msgid "Solid - The easiest solution for productive business meetings"
+msgstr ""
+
+#: ../app/index.hbs:33
+msgid ""
+"<strong>Productive</strong> and <strong>actionable</strong> meetings, every "
+"time"
+msgstr ""
+"Des réunions <strong>productives</strong> et <strong>aux actions concrètes</"
+"strong>"
+
+#: ../app/index.hbs:34
+msgid ""
+"Run effective and easy meetings with Solid. Get the meeting agenda, tasks "
+"&amp; decisions instantly in your mailbox."
+msgstr ""
+"Faites enfin des réunions simples et efficaces avec Solid. Récupérez "
+"directement l'ordre du jour, les tâches et décisions de vos réunions dans "
+"votre boite mail."
+
+#: ../app/index.hbs:36 ../app/index.hbs:120
+msgid "Get early access"
+msgstr ""
+
+#: ../app/index.hbs:50
+msgid "The recipe to effective meetings is simple"
+msgstr ""
+
+#: ../app/index.hbs:54
+msgid "Get everyone prepared for a successful meeting"
+msgstr ""
+
+#: ../app/index.hbs:55
+msgid ""
+"Solid automatically retrieves all your agenda information from your Google "
+"Calendar. Your present and future events are analyzed, allowing you to "
+"receive instant notifications on the meetings that are not « solid » enough "
+"to be held."
+msgstr ""
+
+#: ../app/index.hbs:72
+msgid "Keep the meeting focused on the agenda"
+msgstr ""
+
+#: ../app/index.hbs:73
+msgid ""
+"Solid will let you know on the time remaining before the end of the meeting "
+"and the agenda items that are left incomplete. Record your actions, your "
+"decisions and your open issues."
+msgstr ""
+
+#: ../app/index.hbs:90
+msgid "Receive actionable minutes right after the meeting"
+msgstr ""
+
+#: ../app/index.hbs:91
+msgid ""
+"All participants receive a detailed summary of the meeting’s outcomes and "
+"also a list of their personal upcoming tasks. After all the meetings, a "
+"survey is automatically sent to all participants to get their feedback on "
+"the meeting's efficiency."
+msgstr ""
+
+#: ../app/index.hbs:106
+msgid "Working with things you use everyday"
+msgstr ""
+
+#: ../app/index.hbs:107
+msgid ""
+"Solid works on top of your calendar provider. You’ll be up and running in a "
+"few clicks. We’re currently working on some other cool integrations. Stay "
+"tuned for more information!"
+msgstr ""
+
+#: ../app/index.hbs:118
+msgid "How does spending 7 years* in meetings sounds to you?"
+msgstr ""
+
+#: ../app/index.hbs:119
+msgid "Join Solid and discover how much you're spending in meetings."
+msgstr ""
+
+#: ../app/index.hbs:121
+msgid ""
+"* That's how much the average worker spends in meetings over their lifetime."
+msgstr ""
+
+#: ../app/index.hbs:131
+msgid "Blog"
+msgstr ""
+
+#: ../app/index.hbs:134
+#, fuzzy
+msgid "Contact"
+msgstr ""
+"En raison des dates, ce code ne semble pas pouvoir activer le Wiz. Veuillez "
+"contacter votre conseiller Wisembly."
+
+#: ../app/index.hbs:141
+#, fuzzy
+msgid "Solid on Twitter"
+msgstr "Twitter"
+
+#: ../app/index.hbs:144
+#, fuzzy
+msgid "Wisembly on Facebook"
+msgstr "Wisembly"
+
+#: ../app/index.hbs:150
+#, fuzzy
+msgid "Made by Wisembly"
+msgstr "Wisembly"

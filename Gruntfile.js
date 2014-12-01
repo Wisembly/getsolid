@@ -28,6 +28,12 @@ module.exports = function (grunt) {
     // Project settings
     config: config,
 
+    shell: {
+        hbs: {
+            command: './bin/build'
+        }
+    },
+
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -51,6 +57,10 @@ module.exports = function (grunt) {
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
+      },
+      hbs: {
+        files: ['<%= config.app %>/{,*/}*.hbs'],
+        tasks: ['shell:hbs']
       },
       livereload: {
         options: {

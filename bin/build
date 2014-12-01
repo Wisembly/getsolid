@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+    hbs = require('handlebars').create();
+
+hbs.registerHelper('_t', function $(msgid) {
+  return new hbs.SafeString(msgid);
+});
+
+var template = fs.readFileSync('app/index.hbs').toString(),
+    compiledTemplate  = hbs.compile(template);
+
+fs.writeFileSync('app/index.html', compiledTemplate());
