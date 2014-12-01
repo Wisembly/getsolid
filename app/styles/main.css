@@ -64,7 +64,7 @@ body {
   line-height: 30px;
   margin-bottom: 40px;
 }
-.header img {
+.cover-image {
   margin-bottom: 0;
   top: 1px;
   position: relative;
@@ -245,6 +245,39 @@ img {
 .nav-tabs > li > a:hover {
   background-color: inherit;
   border: 0;
+}
+.dropdown button {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  height: 34px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.dropdown button:focus {
+  outline: none;
+}
+.dropdown-menu {
+  background-color: transparent;
+  border: 1px solid #fff;
+  min-width: 0;
+  padding: 0;
+}
+.dropdown img {
+  display: block;
+  margin: auto;
+}
+.dropdown-menu li {
+  border-bottom: 1px solid #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 34px;
+  line-height: 34px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.dropdown-menu li:last-child {
+  border-bottom: 0;
 }
 
 /* Responsive: Portrait tablets and up */

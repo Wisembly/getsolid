@@ -27,6 +27,19 @@
             <div class='col-sm-6'>
               <h3 class="logo text-muted">Solid</h3>
             </div>
+            <div class='col-sm-6'>
+              <div class='pull-right'>
+                <div class="dropdown">
+                  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+                    <img src='images/flag-en.png' with='18' height='12'>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li><img src='images/flag-en.png' with='18' height='12'></li>
+                    <li><img src='images/flag-fr.png' with='18' height='12'></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
           <div class='row'>
             <div class='col-sm-7 header-text'>
@@ -37,7 +50,7 @@
               </div>
             </div>
             <div class='col-sm-5'>
-              <img src='images/header-image.png' width='288' height='422'>
+              <img src='images/header-image.png' width='288' height='422' class='cover-image'>
             </div>
           </div>
         </div>
@@ -173,9 +186,9 @@
     </script>
 
         <!-- build:js(.) scripts/plugins.js -->
+        <script src="bower_components/bootstrap/js/dropdown.js"></script>
         <!-- <script src="bower_components/bootstrap/js/affix.js"></script>
         <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
         <script src="bower_components/bootstrap/js/tooltip.js"></script>
         <script src="bower_components/bootstrap/js/modal.js"></script>
         <script src="bower_components/bootstrap/js/transition.js"></script>
