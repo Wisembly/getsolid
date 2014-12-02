@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# create json
+bower_components/gettext.js/bin/po2json locales/messages.fr.po app/i18n/messages.fr.json

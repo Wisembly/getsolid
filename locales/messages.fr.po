@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: getsolid\n"
+"POT-Creation-Date: 2014-12-01 15:58+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Guillaume Potier <guillaume@wisembly.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-KeywordsList: _t\n"
+"X-Poedit-SearchPath-0: ../app\n"
+
+#: ../app/index.hbs:5
+msgid "Solid - The easiest solution for productive business meetings"
+msgstr "Solid - La solution la plus efficace pour vos réunions."
+
+#: ../app/index.hbs:33
+msgid ""
+"<strong>Productive</strong> and <strong>actionable</strong> meetings, every "
+"time"
+msgstr ""
+"Des réunions <strong>efficaces</strong> et <strong>concrètes</strong>, à "
+"tous les coups."
+
+#: ../app/index.hbs:34
+msgid ""
+"Run effective and easy meetings with Solid. Get the meeting agenda, tasks "
+"&amp; decisions instantly in your mailbox."
+msgstr ""
+"Participez à des réunions simples et efficaces avec Solid. Récupérez "
+"directement l'ordre du jour, les tâches et décisions de vos réunions dans "
+"votre boite mail."
+
+#: ../app/index.hbs:36 ../app/index.hbs:120
+msgid "Get early access"
+msgstr "Inscrivez-vous"
+
+#: ../app/index.hbs:50
+msgid "The recipe to effective meetings is simple"
+msgstr "La recette idéale pour des réunions efficaces"
+
+#: ../app/index.hbs:54
+msgid "Get everyone prepared for a successful meeting"
+msgstr "Une réunion bien préparée est une réunion réussie."
+
+#: ../app/index.hbs:55
+msgid ""
+"Solid automatically retrieves all your agenda information from your Google "
+"Calendar. Your present and future events are analyzed, allowing you to "
+"receive instant notifications on the meetings that are not « solid » enough "
+"to be held."
+msgstr ""
+"Solid accède automatiquement aux informations disponibles dans votre agenda "
+"(date, heure, participants, lieux, etc.). Vos réunions à venir sont "
+"analysées en temps réel ; vous découvrez en un coup d'oeil vos réunions à "
+"préparer. Solidifiez les bases de vos réunions pour plus d'efficacité!"
+
+#: ../app/index.hbs:72
+msgid "Keep the meeting focused on the agenda"
+msgstr "Restez concentré sur l'ordre du jour"
+
+#: ../app/index.hbs:73
+msgid ""
+"Solid will let you know on the time remaining before the end of the meeting "
+"and the agenda items that are left incomplete. Record your actions, your "
+"decisions and your open issues."
+msgstr ""
+"En temps réel, Solid vous indique le temps restant avant la fin de votre "
+"réunion ainsi que les points de l'ordre du jour qui n'ont pas été "
+"entièrement traités. Solid est la mémoire de vos actions, de vos décisions "
+"et de vos points en suspens soulevés lors des réunions."
+
+#: ../app/index.hbs:90
+msgid "Receive actionable minutes right after the meeting"
+msgstr "Recevez immédiatement après la réunion un plan d'action clair."
+
+#: ../app/index.hbs:91
+msgid ""
+"All participants receive a detailed summary of the meeting’s outcomes and "
+"also a list of their personal upcoming tasks. After all the meetings, a "
+"survey is automatically sent to all participants to get their feedback on "
+"the meeting's efficiency."
+msgstr ""
+"Chaque participant reçoit un compte-rendu détaillé de la réunion ainsi qu'un "
+"plan d'actions post-réunion personnalisé. Après chaque réunion, une enquête "
+"est automatiquement envoyée à tous les participants pour mesurer leur "
+"ressenti sur l'efficacité de la réunion."
+
+#: ../app/index.hbs:106
+msgid "Working with things you use everyday"
+msgstr "Solid est compatible avec ce que vous utilisez chaque jour."
+
+#: ../app/index.hbs:107
+msgid ""
+"Solid works on top of your calendar provider. You’ll be up and running in a "
+"few clicks. We’re currently working on some other cool integrations. Stay "
+"tuned for more information!"
+msgstr ""
+"Solide fonctionne déjà avec votre calendrier. Nous travaillons en ce moment "
+"à la synchronisation de Solid avec de nouvelles solutions que vous utilisez "
+"tous les jours. "
+
+#: ../app/index.hbs:118
+msgid "How does spending 7 years* in meetings sounds to you?"
+msgstr "Vous imaginez passer 7 ans dans une salle de réunion ?"
+
+#: ../app/index.hbs:119
+msgid "Join Solid and discover how much you're spending in meetings."
+msgstr ""
+"Inscrivez-vous à Solid et découvrez combien de temps vous passez en réunion."
+
+#: ../app/index.hbs:121
+msgid ""
+"* That's how much the average worker spends in meetings over their lifetime."
+msgstr ""
+"*C'est le temps moyen que passe un cadre en réunion tout au long de sa vie "
+"(source : Wisembly)"
+
+#: ../app/index.hbs:131
+msgid "Blog"
+msgstr "Blog"
+
+#: ../app/index.hbs:134
+msgid "Contact"
+msgstr "Contact"
+
+#: ../app/index.hbs:141
+msgid "Solid on Twitter"
+msgstr "Solid sur Twitter"
+
+#: ../app/index.hbs:144
+msgid "Wisembly on Facebook"
+msgstr "Wisembly sur Facebook"
+
+#: ../app/index.hbs:150
+msgid "Made by Wisembly"
+msgstr "By Wisembly"
