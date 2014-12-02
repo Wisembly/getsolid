@@ -34,8 +34,8 @@
                     <img src='images/flag-en.png' with='18' height='12'>
                   </button>
                   <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                    <li><img src='images/flag-en.png' with='18' height='12'></li>
-                    <li><img src='images/flag-fr.png' with='18' height='12'></li>
+                    <li class="flag" data-lang="en"><img src='images/flag-en.png' with='18' height='12'></li>
+                    <li class="flag" data-lang="fr"><img src='images/flag-fr.png' with='18' height='12'></li>
                   </ul>
                 </div>
               </div>
@@ -218,16 +218,25 @@
                 window.i18n.loadedLocales.fr = true;
             });
 
-            var renderLocalizations = function () {
+            window.renderLocalizations = function () {
                 $('.i18n').each(function () {
-                    $(this).html(window.i18n.gettext($(this).html()));
+                    var msgid = $(this).data('i18n') || $(this).html();
+                    $(this).data('i18n', msgid);
+                    $(this).html(window.i18n.gettext(msgid));
                 });
             };
 
-            var switchLocale = function (locale) {
+            window.switchLocale = function (locale) {
                 window.i18n.setLocale(locale);
                 renderLocalizations();
             };
+
+
+            $('.dropdown ul li').click(function() {
+                var text = $(this).html();
+                $('#dLabel').html(text);
+                switchLocale($(this).data('lang'));
+            });
 
             renderLocalizations();
         });

@@ -31,6 +31,9 @@ module.exports = function (grunt) {
     shell: {
         hbs: {
             command: './bin/build'
+        },
+        translations: {
+            command: './bin/translations'
         }
     },
 
@@ -61,6 +64,10 @@ module.exports = function (grunt) {
       hbs: {
         files: ['<%= config.app %>/{,*/}*.hbs'],
         tasks: ['shell:hbs']
+      },
+      translations: {
+        files: ['locales/{,*/}*.po'],
+        tasks: ['shell:translations']
       },
       livereload: {
         options: {

@@ -8,9 +8,4 @@ $(function () {
   $(document).on('click', '.show-prefinery-form', function () {
     Prefinery.show(url);
   });
-
-  $('.dropdown ul li').click(function() {
-    var text = $(this).html();
-    $('#dLabel').html(text);
-  });
 })
