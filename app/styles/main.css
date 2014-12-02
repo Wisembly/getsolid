@@ -67,6 +67,7 @@ body {
 .cover-image {
   margin-bottom: 0;
   top: 1px;
+  margin-top: 12px;
   position: relative;
 }
 .header .btn {
