@@ -77,9 +77,9 @@ body {
 .logo {
   background-image: url(../images/solid.png);
   text-indent: -100%;
-  width: 68px;
-  height: 34px;
-  background-size: 68px;
+  width: 75px;
+  height: 40px;
+  background-size: 75px;
   overflow: hidden;
 }
 h4 {
