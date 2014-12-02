@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: getsolid\n"
-"POT-Creation-Date: 2014-12-01 15:58+0100\n"
+"POT-Creation-Date: 2014-12-02 13:32+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Guillaume Potier <guillaume@wisembly.com>\n"
 "Language-Team: \n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Solid - The easiest solution for productive business meetings"
 msgstr "Solid - La solution la plus efficace pour vos réunions."
 
-#: ../app/index.hbs:33
+#: ../app/index.hbs:46
 msgid ""
 "<strong>Productive</strong> and <strong>actionable</strong> meetings, every "
 "time"
@@ -28,7 +28,7 @@ msgstr ""
 "Des réunions <strong>efficaces</strong> et <strong>concrètes</strong>, à "
 "tous les coups."
 
-#: ../app/index.hbs:34
+#: ../app/index.hbs:47
 msgid ""
 "Run effective and easy meetings with Solid. Get the meeting agenda, tasks "
 "&amp; decisions instantly in your mailbox."
@@ -37,19 +37,27 @@ msgstr ""
 "directement l'ordre du jour, les tâches et décisions de vos réunions dans "
 "votre boite mail."
 
-#: ../app/index.hbs:36 ../app/index.hbs:120
+#: ../app/index.hbs:49 ../app/index.hbs:133
 msgid "Get early access"
 msgstr "Inscrivez-vous"
 
-#: ../app/index.hbs:50
+#: ../app/index.hbs:53
+msgid ""
+"<img src=\"images/header-image-en.png\" width=\"288\" height=\"422\" class="
+"\"cover-image\">"
+msgstr ""
+"<img src=\"images/header-image-fr.png\" width=\"288\" height=\"422\" class="
+"\"cover-image\">"
+
+#: ../app/index.hbs:63
 msgid "The recipe to effective meetings is simple"
 msgstr "La recette idéale pour des réunions efficaces"
 
-#: ../app/index.hbs:54
+#: ../app/index.hbs:67
 msgid "Get everyone prepared for a successful meeting"
 msgstr "Une réunion bien préparée est une réunion réussie."
 
-#: ../app/index.hbs:55
+#: ../app/index.hbs:68
 msgid ""
 "Solid automatically retrieves all your agenda information from your Google "
 "Calendar. Your present and future events are analyzed, allowing you to "
@@ -61,11 +69,11 @@ msgstr ""
 "analysées en temps réel ; vous découvrez en un coup d'oeil vos réunions à "
 "préparer. Solidifiez les bases de vos réunions pour plus d'efficacité!"
 
-#: ../app/index.hbs:72
+#: ../app/index.hbs:85
 msgid "Keep the meeting focused on the agenda"
 msgstr "Restez concentré sur l'ordre du jour"
 
-#: ../app/index.hbs:73
+#: ../app/index.hbs:86
 msgid ""
 "Solid will let you know on the time remaining before the end of the meeting "
 "and the agenda items that are left incomplete. Record your actions, your "
@@ -76,11 +84,17 @@ msgstr ""
 "entièrement traités. Solid est la mémoire de vos actions, de vos décisions "
 "et de vos points en suspens soulevés lors des réunions."
 
-#: ../app/index.hbs:90
+#: ../app/index.hbs:89
+msgid ""
+"<img src=\"images/keep-meeting-focused-en.png\" width=\"204\" height=\"186\">"
+msgstr ""
+"<img src=\"images/keep-meeting-focused-fr.png\" width=\"204\" height=\"186\">"
+
+#: ../app/index.hbs:103
 msgid "Receive actionable minutes right after the meeting"
 msgstr "Recevez immédiatement après la réunion un plan d'action clair."
 
-#: ../app/index.hbs:91
+#: ../app/index.hbs:104
 msgid ""
 "All participants receive a detailed summary of the meeting’s outcomes and "
 "also a list of their personal upcoming tasks. After all the meetings, a "
@@ -92,11 +106,19 @@ msgstr ""
 "est automatiquement envoyée à tous les participants pour mesurer leur "
 "ressenti sur l'efficacité de la réunion."
 
-#: ../app/index.hbs:106
+#: ../app/index.hbs:107
+msgid ""
+"<img src=\"images/receive-actionnable-summary-en.png\" width=\"266\" height="
+"\"221\">"
+msgstr ""
+"<img src=\"images/receive-actionnable-summary-fr.png\" width=\"266\" height="
+"\"221\">"
+
+#: ../app/index.hbs:119
 msgid "Working with things you use everyday"
 msgstr "Solid est compatible avec ce que vous utilisez chaque jour."
 
-#: ../app/index.hbs:107
+#: ../app/index.hbs:120
 msgid ""
 "Solid works on top of your calendar provider. You’ll be up and running in a "
 "few clicks. We’re currently working on some other cool integrations. Stay "
@@ -106,47 +128,45 @@ msgstr ""
 "à la synchronisation de Solid avec de nouvelles solutions que vous utilisez "
 "tous les jours. "
 
-#: ../app/index.hbs:118
+#: ../app/index.hbs:131
 msgid "How does spending 7 years* in meetings sounds to you?"
 msgstr "Vous imaginez passer 7 ans dans une salle de réunion ?"
 
-#: ../app/index.hbs:119
+#: ../app/index.hbs:132
 msgid "Join Solid and discover how much you're spending in meetings."
 msgstr ""
 "Inscrivez-vous à Solid et découvrez combien de temps vous passez en réunion."
 
-#: ../app/index.hbs:121
+#: ../app/index.hbs:134
 msgid ""
 "* That's how much the average worker spends in meetings over their lifetime."
 msgstr ""
 "*C'est le temps moyen que passe un cadre en réunion tout au long de sa vie "
 "(source : Wisembly)"
 
-#: ../app/index.hbs:131
+#: ../app/index.hbs:144
 msgid "Blog"
 msgstr "Blog"
 
-#: ../app/index.hbs:134
+#: ../app/index.hbs:147
 msgid "Contact"
 msgstr "Contact"
 
-#: ../app/index.hbs:141
+#: ../app/index.hbs:154
 msgid "Solid on Twitter"
 msgstr "Solid sur Twitter"
 
-#: ../app/index.hbs:144
+#: ../app/index.hbs:157
 msgid "Wisembly on Facebook"
 msgstr "Wisembly sur Facebook"
 
-#: ../app/index.hbs:150
+#: ../app/index.hbs:163
 msgid "Made by Wisembly"
 msgstr "By Wisembly"
 
-msgid "<img src='images/header-image-en.png' width='288' height='422' class='cover-image'>"
-msgstr "<img src='images/header-image-fr.png' width='288' height='422' class='cover-image'>"
-
-msgid "<img src='images/keep-meeting-focused-en.png' width='204' height='186'>"
-msgstr "<img src='images/keep-meeting-focused-fr.png' width='204' height='186'>"
-
-msgid "<img src='images/receive-actionnable-summary-en.png' width='266' height='221'>"
-msgstr "<img src='images/receive-actionnable-summary-fr.png' width='266' height='221'>"
+#~ msgid ""
+#~ "<img src=\"images/get-everyone-prepared.png\" width=\"201\" height="
+#~ "\"212\">"
+#~ msgstr ""
+#~ "<img src=\"images/receive-actionnable-summary-fr.png\" width=\"266\" "
+#~ "height=\"221\">"
