@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: getsolid\n"
-"POT-Creation-Date: 2014-12-02 13:32+0100\n"
+"POT-Creation-Date: 2014-12-02 14:01+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Guillaume Potier <guillaume@wisembly.com>\n"
 "Language-Team: \n"
@@ -41,14 +41,6 @@ msgstr ""
 msgid "Get early access"
 msgstr "Inscrivez-vous"
 
-#: ../app/index.hbs:53
-msgid ""
-"<img src=\"images/header-image-en.png\" width=\"288\" height=\"422\" class="
-"\"cover-image\">"
-msgstr ""
-"<img src=\"images/header-image-fr.png\" width=\"288\" height=\"422\" class="
-"\"cover-image\">"
-
 #: ../app/index.hbs:63
 msgid "The recipe to effective meetings is simple"
 msgstr "La recette idéale pour des réunions efficaces"
@@ -84,12 +76,6 @@ msgstr ""
 "entièrement traités. Solid est la mémoire de vos actions, de vos décisions "
 "et de vos points en suspens soulevés lors des réunions."
 
-#: ../app/index.hbs:89
-msgid ""
-"<img src=\"images/keep-meeting-focused-en.png\" width=\"204\" height=\"186\">"
-msgstr ""
-"<img src=\"images/keep-meeting-focused-fr.png\" width=\"204\" height=\"186\">"
-
 #: ../app/index.hbs:103
 msgid "Receive actionable minutes right after the meeting"
 msgstr "Recevez immédiatement après la réunion un plan d'action clair."
@@ -105,14 +91,6 @@ msgstr ""
 "plan d'actions post-réunion personnalisé. Après chaque réunion, une enquête "
 "est automatiquement envoyée à tous les participants pour mesurer leur "
 "ressenti sur l'efficacité de la réunion."
-
-#: ../app/index.hbs:107
-msgid ""
-"<img src=\"images/receive-actionnable-summary-en.png\" width=\"266\" height="
-"\"221\">"
-msgstr ""
-"<img src=\"images/receive-actionnable-summary-fr.png\" width=\"266\" height="
-"\"221\">"
 
 #: ../app/index.hbs:119
 msgid "Working with things you use everyday"
@@ -163,6 +141,27 @@ msgstr "Wisembly sur Facebook"
 #: ../app/index.hbs:163
 msgid "Made by Wisembly"
 msgstr "By Wisembly"
+
+#~ msgid ""
+#~ "<img src=\"images/header-image-en.png\" width=\"288\" height=\"422\" "
+#~ "class=\"cover-image\">"
+#~ msgstr ""
+#~ "<img src=\"images/header-image-fr.png\" width=\"288\" height=\"422\" "
+#~ "class=\"cover-image\">"
+
+#~ msgid ""
+#~ "<img src=\"images/keep-meeting-focused-en.png\" width=\"204\" height="
+#~ "\"186\">"
+#~ msgstr ""
+#~ "<img src=\"images/keep-meeting-focused-fr.png\" width=\"204\" height="
+#~ "\"186\">"
+
+#~ msgid ""
+#~ "<img src=\"images/receive-actionnable-summary-en.png\" width=\"266\" "
+#~ "height=\"221\">"
+#~ msgstr ""
+#~ "<img src=\"images/receive-actionnable-summary-fr.png\" width=\"266\" "
+#~ "height=\"221\">"
 
 #~ msgid ""
 #~ "<img src=\"images/get-everyone-prepared.png\" width=\"201\" height="
