@@ -270,10 +270,6 @@ img {
   min-width: 0;
   padding: 0;
 }
-.dropdown img {
-  display: inline-block;
-  margin: 0 10px 0 0;
-}
 .dropdown-menu li {
   border-bottom: 1px solid #fff;
   padding-right: 10px;
