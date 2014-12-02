@@ -78,7 +78,7 @@ msgstr ""
 
 #: ../app/index.hbs:103
 msgid "Receive actionable minutes right after the meeting"
-msgstr "Recevez immédiatement après la réunion un plan d'action clair."
+msgstr "Recevez immédiatement après la réunion un plan d'actions clair."
 
 #: ../app/index.hbs:104
 msgid ""
