@@ -141,3 +141,12 @@ msgstr "Wisembly sur Facebook"
 #: ../app/index.hbs:150
 msgid "Made by Wisembly"
 msgstr "By Wisembly"
+
+msgid "<img src='images/header-image-en.png' width='288' height='422' class='cover-image'>"
+msgstr "<img src='images/header-image-fr.png' width='288' height='422' class='cover-image'>"
+
+msgid "<img src='images/keep-meeting-focused-en.png' width='204' height='186'>"
+msgstr "<img src='images/keep-meeting-focused-fr.png' width='204' height='186'>"
+
+msgid "<img src='images/receive-actionnable-summary-en.png' width='266' height='221'>"
+msgstr "<img src='images/receive-actionnable-summary-fr.png' width='266' height='221'>"
