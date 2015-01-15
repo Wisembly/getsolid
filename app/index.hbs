@@ -210,6 +210,59 @@
         $(document).ready(function () {
             window.i18n = window.i18n();
 
+            var catalog = {
+                'tristan': [
+                    {
+                        'el': $('h1'),
+                        'method': 'html',
+                        'value': {
+                            'fr': 'Tristan,<br/>il est temps de faire des meetings de ouf!',
+                            'en': 'Tristan,<br/>do exceptional meetings!'
+                        }
+                    },
+                    {
+                        'el': $('.show-prefinery-form'),
+                        'method': 'html',
+                        'value': {
+                            'fr': 'Cliques si tu oses !',
+                            'en': 'Clic if you\'re not a chicken!'
+                        }
+                    }
+                ]
+            };
+
+            var testCatalog = function (catalog) {
+                var j;
+                for (i in catalog)
+                    for (j = 0; j < catalog[i].length; j++)
+                        if (!catalog[i][j].el.length)
+                            console.warn('element position ' + j + ' for ' + i + ' key is invalid');
+                console.log('if no warning occured you are good to go sir!');
+            };
+
+            var versio = function (catalog, lang, version) {
+                console.log('hey');
+
+                if ('undefined' === typeof version && window.location.hash.length)
+                    version = window.location.hash.replace('#', '');
+
+                if (!catalog[version])
+                    return;
+
+                var i, action = catalog[version];
+
+                for (i = 0; i < action.length; i++) {
+                    if (!action[i].el.length) {
+                        console.warn('element for replacement at position ' + i + ' not found.');
+                        continue;
+                    }
+
+                    action[i].el[action[i].method](action[i].value[lang]);
+                }
+            };
+
+            versio(catalog, 'en');
+
             // Load asynchronously 'fr' translations
             $.getJSON('i18n/messages.fr.json', function (json) {
                 window.i18n.loadJSON(json);
@@ -217,6 +270,7 @@
                 if ('fr' === getParameterByName('lang')) {
                     $('#dLabel').html('Français');
                     switchLocale('fr');
+                    versio(catalog, 'fr');
                 }
             });
 
@@ -239,6 +293,7 @@
             window.switchLocale = function (locale) {
                 window.i18n.setLocale(locale);
                 renderLocalizations();
+                versio(catalog, locale);
             };
 
             $('.dropdown ul li').click(function() {
