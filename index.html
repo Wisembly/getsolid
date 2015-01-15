@@ -8,6 +8,82 @@
       ga('create','UA-34544689-5');ga('send','pageview');</script> <script src=scripts/d12d3c20.plugins.js></script> <script src=scripts/2b8de218.main.js></script> <script type=text/javascript src=bower_components/gettext.js/dist/gettext.min.js></script> <script type=text/javascript src=https://www.prefinery.com/javascripts/widget2.js></script> <script src=//dyno.s3.amazonaws.com/WfwC0hjfOpJyIl3mYeuWlQ.min.js type=text/javascript></script> <script type=text/javascript>$(document).ready(function () {
             window.i18n = window.i18n();
 
+            var catalog = {
+                'guru': [
+                    {
+                        'el': $('h1'),
+                        'method': 'html',
+                        'value': {
+                            'fr': 'Cher <strong>Organization Guru</strong>, essayez Solid pour des réunions 100% efficaces',
+                            'en': 'Dear  <strong>Organization Guru</strong>, try Solid for actionable meetings'
+                        }
+                    }
+                ],
+                'master': [
+                  {
+                    'el': $('h1'),
+                    'method': 'html',
+                    'value': {
+                      'fr': 'Cher <strong>Time Master</strong>, essayez Solid pour des réunions 100% efficaces',
+                      'en': 'Dear  <strong>Time Master</strong>, try Solid for actionable meetings'
+                    }
+                  }
+                ],
+                'meeting': [
+                    {
+                      'el': $('h1'),
+                      'method': 'html',
+                      'value': {
+                        'fr': 'Cher <strong>Meeting Specialist</strong>, essayez Solid pour des réunions 100% efficaces',
+                        'en': 'Dear  <strong>Meeting Specialist</strong>, try Solid for actionable meetings'
+                      }
+                    }
+                ],
+                'brainstormer': [
+                  {
+                    'el': $('h1'),
+                    'method': 'html',
+                    'value': {
+                      'fr': 'Cher <strong>Brainstormer</strong>, essayez Solid pour des réunions 100% efficaces',
+                      'en': 'Dear  <strong>Brainstormer</strong>, try Solid for actionable meetings'
+                    }
+                  }
+                ]
+
+            };
+
+            var testCatalog = function (catalog) {
+                var j;
+                for (i in catalog)
+                    for (j = 0; j < catalog[i].length; j++)
+                        if (!catalog[i][j].el.length)
+                            console.warn('element position ' + j + ' for ' + i + ' key is invalid');
+                console.log('if no warning occured you are good to go sir!');
+            };
+
+            var versio = function (catalog, lang, version) {
+                console.log('hey');
+
+                if ('undefined' === typeof version && window.location.hash.length)
+                    version = window.location.hash.replace('#', '');
+
+                if (!catalog[version])
+                    return;
+
+                var i, action = catalog[version];
+
+                for (i = 0; i < action.length; i++) {
+                    if (!action[i].el.length) {
+                        console.warn('element for replacement at position ' + i + ' not found.');
+                        continue;
+                    }
+
+                    action[i].el[action[i].method](action[i].value[lang]);
+                }
+            };
+
+            versio(catalog, 'en');
+
             // Load asynchronously 'fr' translations
             $.getJSON('i18n/messages.fr.json', function (json) {
                 window.i18n.loadJSON(json);
@@ -15,6 +91,7 @@
                 if ('fr' === getParameterByName('lang')) {
                     $('#dLabel').html('Français');
                     switchLocale('fr');
+                    versio(catalog, 'fr');
                 }
             });
 
@@ -37,6 +114,7 @@
             window.switchLocale = function (locale) {
                 window.i18n.setLocale(locale);
                 renderLocalizations();
+                versio(catalog, locale);
             };
 
             $('.dropdown ul li').click(function() {
