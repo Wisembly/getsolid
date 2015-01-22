@@ -142,9 +142,9 @@
 
         var gaClientId;
 
-        // Retrieve Google Analytics client_id
+        // Retrieve Google Analytics linkerParam
         ga(function (tracker) {
-          gaClientId = tracker.get('clientId');
+          gaLinkerParam = tracker.get('linkerParam');
         });
 
         Prefinery.apply(prefinery_apply_options);
@@ -152,7 +152,7 @@
         var prefinery_form_url =
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
-          '/testers/new?display=popup&version=' + Prefinery.konfig.version + '&_ga=' + gaClientId;
+          '/testers/new?display=popup&version=' + Prefinery.konfig.version + '&' + gaLinkerParam;
 
         $(document).on('click', '.show-prefinery-form', function () {
           Prefinery.show(prefinery_form_url);
