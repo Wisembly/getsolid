@@ -174,13 +174,28 @@
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
+    <!-- <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='//www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-34544689-5');ga('send','pageview');
+    </script> -->
+
+    <script type="text/javascript">
+    // IMPORTANT: Remove this code snippet when upgrading to analytics.js
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-XXXX-Y']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
     </script>
 
         <!-- build:js(.) scripts/plugins.js -->
@@ -342,22 +357,32 @@
           version: 2
         };
 
-        var gaClientId;
-
-        // Retrieve Google Analytics linkerParam
-        ga(function (tracker) {
-          gaLinkerParam = tracker.get('linkerParam');
-        });
-
         Prefinery.apply(prefinery_apply_options);
 
         var prefinery_form_url =
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
-          '/testers/new?display=popup&version=' + Prefinery.konfig.version + '&' + gaLinkerParam;
+          '/testers/new?display=popup&version=' + Prefinery.konfig.version;
+
+
+        // Retrieve Google Analytics ga.js linkerParam
+
+        //var gaLinkerParam;
+
+        //ga(function (tracker) {
+        //  gaLinkerParam = tracker.get('linkerParam');
+        //});
+
+        // build tracking url for ga.js
+        var gaPageURL;
+
+        _gaq.push(function() {
+          var pageTracker = _gat._getTrackerByName();
+          gaPageURL = pageTracker._getLinkerUrl(prefinery_form_url);
+        });
 
         $(document).on('click', '.show-prefinery-form', function () {
-          Prefinery.show(prefinery_form_url);
+          Prefinery.show(gaPageURL);
         });
       </script>
 </body>
