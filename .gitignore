@@ -4,5 +4,5 @@ dist
 bower_components
 .DS_Store
 
-app/index.html
+app/*.html
 app/i18n/*

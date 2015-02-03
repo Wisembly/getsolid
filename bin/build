@@ -7,7 +7,5 @@ hbs.registerHelper('_t', function $(msgid) {
   return new hbs.SafeString(msgid);
 });
 
-var template = fs.readFileSync('app/index.hbs').toString(),
-    compiledTemplate  = hbs.compile(template);
-
-fs.writeFileSync('app/index.html', compiledTemplate());
+fs.writeFileSync('app/index.html', hbs.compile(fs.readFileSync('app/index.hbs').toString())());
+fs.writeFileSync('app/getting-started.html', hbs.compile(fs.readFileSync('app/getting-started.hbs').toString())());
