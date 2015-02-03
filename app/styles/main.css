@@ -11,14 +11,34 @@
     font-style: normal;
 }
 
-body {
-  font-family:'Proxima Nova', Helvetica, Arial, sans-serif;
-  color: #676E72;
-}
+/* globals */
 
 html,
 body {
   height: 100%;
+}
+
+img {
+  display: block;
+  margin: 0 auto 40px;
+}
+
+/* helpers */
+
+.tac {
+  text-align: center;
+}
+
+.mtn {
+  margin-top: 0;
+}
+
+.mbm {
+  margin-bottom: 24px;
+}
+
+.mbl {
+  margin-bottom: 48px;
 }
 
 /* type */
@@ -27,6 +47,8 @@ html,
 body {
   font-size: 16px;
   line-height: 1.5em;
+  font-family:'Proxima Nova', Helvetica, Arial, sans-serif;
+  color: #676E72;
 }
 
 p {
@@ -133,13 +155,6 @@ ol {
   height: 40px;
   background-size: 75px;
   overflow: hidden;
-}
-img {
-  display: block;
-  margin: 0 auto 40px;
-}
-.tac {
-  text-align: center;
 }
 section,
 .feature {
@@ -263,6 +278,7 @@ section,
 
 .nav-tabs {
   border-bottom: 0;
+  margin-top: 0;
 }
 .nav-tabs > li {
   margin-right: 15px;
