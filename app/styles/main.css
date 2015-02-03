@@ -32,7 +32,7 @@ body {
 p {
   line-height: 24px;
   font-size: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 h4,
@@ -141,8 +141,12 @@ img {
 .tac {
   text-align: center;
 }
+section,
 .feature {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
+}
+.feature p:last-child {
+  margin-bottom: 48px;
 }
 .prepared h4 {
   margin-top: 30px;
