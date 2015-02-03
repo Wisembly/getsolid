@@ -148,7 +148,8 @@ ol {
   margin-bottom: 30px;
 }
 
-.logo {
+.logo a {
+  display: block;
   background-image: url(../images/solid.png);
   text-indent: -100%;
   width: 75px;
