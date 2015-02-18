@@ -371,3 +371,17 @@ section,
 #prefinery_iframe {
   padding-right: 0 !important;
 }
+
+/* notification */
+
+.notification {
+  background-color: #F1BC32;
+  background-color: rgba(241,188,50,.15);
+  padding: 24px 0;
+  text-align: center;
+}
+.notification img {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 4px;
+}
