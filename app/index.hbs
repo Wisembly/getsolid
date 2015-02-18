@@ -369,6 +369,41 @@
             return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
         };
 
+        // read cookie function to read ga cookie
+
+        function createCookie(name,value,days) {
+          if (days) {
+            var date = new Date();
+            date.setTime(date.getTime()+(days*24*60*60*1000));
+            var expires = "; expires="+date.toGMTString();
+          }
+          else var expires = "";
+          document.cookie = name+"="+value+expires+"; path=/";
+        }
+
+        function readCookie(name) {
+          var nameEQ = name + "=";
+          var ca = document.cookie.split(';');
+          for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+          }
+          createCookie(name);
+        }
+
+        var utmz = readCookie('__utmz');
+
+        var vals = (function() {
+          var pairs = utmz.split('.').slice(4).join('.').split('|');
+          var ga = {};
+          for (var i = 0; i < pairs.length; i++) {
+              var temp = pairs[i].split('=');
+                  ga[temp[0]] = temp[1];
+          }
+          return ga;
+        })();
+
         var prefinery_apply_options = {
           account: "wisembly",
           beta_id: "4990",
@@ -382,16 +417,8 @@
         var prefinery_form_url =
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
-          '/testers/new?display=popup&version=' + Prefinery.konfig.version;
-
-
-        // Retrieve Google Analytics ga.js linkerParam
-
-        //var gaLinkerParam;
-
-        //ga(function (tracker) {
-        //  gaLinkerParam = tracker.get('linkerParam');
-        //});
+          '/testers/new?display=popup&version=' + Prefinery.konfig.version +
+          '&referrer=' + vals.utmcsr;
 
         // build tracking url for ga.js
         var gaPageURL;
@@ -399,6 +426,7 @@
         _gaq.push(function() {
           var pageTracker = _gat._getTrackerByName();
           gaPageURL = pageTracker._getLinkerUrl(prefinery_form_url);
+          // gaReferrer = ;
         });
 
         $(document).on('click', '.show-prefinery-form', function () {
