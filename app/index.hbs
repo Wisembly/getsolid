@@ -431,15 +431,14 @@
         var gaPageURL;
 
         _gaq.push(function() {
-          debugger;
           var pageTracker = _gat._getTrackerByName();
           gaPageURL = pageTracker._getLinkerUrl(prefinery_form_url);
           // gaReferrer = ;
         });
 
         $(document).on('click', '.show-prefinery-form', function () {
-          debugger;
-          Prefinery.show(gaPageURL);
+          formURL = gaPageURL || prefinery_form_url;
+          Prefinery.show(formURL);
         });
       </script>
 </body>
