@@ -153,7 +153,7 @@
             return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
         };
 
-        // read cookie function to read ga cookie
+        // read ga cookie to get referrer info
 
         function createCookie(name,value,days) {
           if (days) {
@@ -176,17 +176,23 @@
           createCookie(name);
         }
 
-        var utmz = readCookie('__utmz');
-
+        var utmz;
         var vals = (function() {
-          var pairs = utmz.split('.').slice(4).join('.').split('|');
-          var ga = {};
-          for (var i = 0; i < pairs.length; i++) {
+          try {
+            utmz = readCookie('__utmz');
+            var pairs = utmz.split('.').slice(4).join('.').split('|');
+            var ga = {};
+            for (var i = 0; i < pairs.length; i++) {
               var temp = pairs[i].split('=');
-                  ga[temp[0]] = temp[1];
-          }
-          return ga;
+                ga[temp[0]] = temp[1];
+            }
+            return ga;
+          } catch (e) {
+            return {};
+          };
         })();
+
+        // prefinery
 
         var prefinery_apply_options = {
           account: "wisembly",
@@ -202,17 +208,20 @@
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
           '/testers/new?display=popup&version=' + Prefinery.konfig.version +
-          '&referrer=' + vals.utmcsr;
+          '&referrer=' + vals.utmcsr + '-' + vals.utmcmd;
 
         // build tracking url for ga.js
+
         var gaPageURL;
 
         _gaq.push(function() {
+          debugger;
           var pageTracker = _gat._getTrackerByName();
           gaPageURL = pageTracker._getLinkerUrl(prefinery_form_url);
           // gaReferrer = ;
         });
 
         $(document).on('click', '.show-prefinery-form', function () {
+          debugger;
           Prefinery.show(gaPageURL);
         });</script>  
