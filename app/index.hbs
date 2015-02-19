@@ -369,7 +369,7 @@
             return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
         };
 
-        // read cookie function to read ga cookie
+        // read ga cookie to get referrer info
 
         function createCookie(name,value,days) {
           if (days) {
@@ -408,6 +408,8 @@
           };
         })();
 
+        // prefinery
+
         var prefinery_apply_options = {
           account: "wisembly",
           beta_id: "4990",
@@ -422,9 +424,10 @@
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
           '/testers/new?display=popup&version=' + Prefinery.konfig.version +
-          '&referrer=' + vals.utmcsr;
+          '&referrer=' + vals.utmcsr + '/' + vals.utmcmd;
 
         // build tracking url for ga.js
+
         var gaPageURL;
 
         _gaq.push(function() {
