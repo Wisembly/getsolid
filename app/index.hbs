@@ -424,19 +424,21 @@
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
           '/testers/new?display=popup&version=' + Prefinery.konfig.version +
-          '&referrer=' + vals.utmcsr + '/' + vals.utmcmd;
+          '&referrer=' + vals.utmcsr + '-' + vals.utmcmd;
 
         // build tracking url for ga.js
 
         var gaPageURL;
 
         _gaq.push(function() {
+          debugger;
           var pageTracker = _gat._getTrackerByName();
           gaPageURL = pageTracker._getLinkerUrl(prefinery_form_url);
           // gaReferrer = ;
         });
 
         $(document).on('click', '.show-prefinery-form', function () {
+          debugger;
           Prefinery.show(gaPageURL);
         });
       </script>
