@@ -385,3 +385,14 @@ section,
   vertical-align: middle;
   margin: 0 4px;
 }
+
+/* twitter widget */
+.wall-of-love {
+  text-align: center;
+}
+.twitter-timeline {
+  width: 100% !important;
+  margin-bottom: 48px !important;
+  margin-top: 24px !important;
+  max-height: none !important;
+}
