@@ -389,10 +389,12 @@ section,
 /* twitter widget */
 .wall-of-love {
   text-align: center;
+  display: none;
 }
 .twitter-timeline {
   width: 100% !important;
   margin-bottom: 48px !important;
   margin-top: 24px !important;
   max-height: none !important;
+  height: auto !default;
 }
