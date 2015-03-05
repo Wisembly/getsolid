@@ -204,16 +204,6 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <!-- <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-34544689-5');ga('send','pageview');
-    </script> -->
-
     <script type="text/javascript">
     // IMPORTANT: Remove this code snippet when upgrading to analytics.js
 
@@ -231,25 +221,43 @@
 
     </script>
 
-        <!-- build:js(.) scripts/plugins.js -->
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <!-- <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        -->
-        <!-- endbuild -->
+    <script type="text/javascript">
+      adroll_adv_id = "2LTTJDU5XJAWJEFKIVYAIA";
+      adroll_pix_id = "5T5SNU54HVD3BNOUJRW5DL";
+      (function () {
+      var oldonload = window.onload;
+      window.onload = function(){
+         __adroll_loaded=true;
+         var scr = document.createElement("script");
+         var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+         scr.setAttribute('async', 'true');
+         scr.type = "text/javascript";
+         scr.src = host + "/j/roundtrip.js";
+         ((document.getElementsByTagName('head') || [null])[0] ||
+          document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+         if(oldonload){oldonload()}};
+      }());
+    </script>
 
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+      <!-- build:js(.) scripts/plugins.js -->
+      <script src="bower_components/bootstrap/js/dropdown.js"></script>
+      <!-- <script src="bower_components/bootstrap/js/affix.js"></script>
+      <script src="bower_components/bootstrap/js/alert.js"></script>
+      <script src="bower_components/bootstrap/js/tooltip.js"></script>
+      <script src="bower_components/bootstrap/js/modal.js"></script>
+      <script src="bower_components/bootstrap/js/transition.js"></script>
+      <script src="bower_components/bootstrap/js/button.js"></script>
+      <script src="bower_components/bootstrap/js/popover.js"></script>
+      <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+      <script src="bower_components/bootstrap/js/collapse.js"></script>
+      <script src="bower_components/bootstrap/js/tab.js"></script>
+      <script src="bower_components/bootstrap/js/carousel.js"></script>
+      -->
+      <!-- endbuild -->
+
+      <!-- build:js({app,.tmp}) scripts/main.js -->
+      <script src="scripts/main.js"></script>
+      <!-- endbuild -->
 
       <script type="text/javascript" src="bower_components/gettext.js/dist/gettext.min.js"></script>
       <script type="text/javascript" src="https://www.prefinery.com/javascripts/widget2.js"></script>
