@@ -72,19 +72,6 @@
           </div>
         </div>
     </div>
-    <div class='wall-of-love'>
-      <div class='container'>
-        <h3 class='heading i18n'>{{_t "People say nice things about Solid" }}</h3>
-        <a
-          class="twitter-timeline"
-          href="/Get_Solid/timelines/565873343744983040"
-          data-widget-id="570987947953258496"
-          data-chrome='noheader nofooter noborder noscrollbar transparent'
-          data-tweet-limit='3'
-          data-aria-polite="assertive"
-        >Read what people are saying about Solid on Twitter here.</a>
-      </div>
-    </div>
 
     <div class="feature prepared">
 
@@ -447,7 +434,7 @@
           'https://' + Prefinery.konfig.account +
           '.prefinery.com/betas/' + Prefinery.konfig.beta_id +
           '/testers/new?display=popup&version=' + Prefinery.konfig.version +
-          '&referrer=' + vals.utmcsr + '-' + vals.utmcmd;
+          '&referrer=' + vals.utmcsr + '-' + vals.utmcmd + '-' + vals.utmccn + '-' + vals.utmctr;
 
         // build tracking url for ga.js
 
@@ -463,57 +450,6 @@
           formURL = gaPageURL || prefinery_form_url;
           Prefinery.show(formURL);
         });
-
-        // twitter widget iframe styling
-
-        // Customize twitter feed
-
-        var hideTwitterAttempts = 0;
-        function hideTwitterBoxElements() {
-            setTimeout( function() {
-                if ( $('[id*=twitter]').length ) {
-                $('[id*=twitter]').each( function(){
-                    if ( $(this).width() == 220 ) {
-                        $(this).width( 198 ); //override min-width of 220px
-                    }
-                    var ibody = $(this).contents().find( 'body' );
-
-                    if ( ibody.find( '.timeline .stream .h-feed li.tweet' ).length ) {
-                    ibody.find( '.timeline .h-feed' ).css( 'overflow', 'hidden' );
-                    ibody.find( '.timeline' ).css( 'color', '#676E72' );
-                    ibody.find( '.timeline .customisable' ).css( 'color', '#676E72' );
-                    ibody.find( '.timeline .p-name' ).css( 'color', '#07698D' );
-                    ibody.find( '.timeline p' ).css( 'font-family', '"Proxima Nova", Helvetica, Arial, sans-serif' );
-                    ibody.find( '.timeline p' ).css( 'font-size', '16px' );
-                    ibody.find( '.timeline p' ).css( 'line-height', '22px' );
-                    ibody.find( '.timeline li' ).css( 'font-family', '"Proxima Nova", Helvetica, Arial, sans-serif' );
-                    ibody.find( '.timeline .tweet' ).css( 'box-sizing', 'border-box' );
-                    ibody.find( '.timeline .tweet' ).css( 'padding', '0 30px 0 63px' );
-                    ibody.find( '.timeline .tweet' ).css( 'margin', '0 auto 48px' );
-                    ibody.find( '.timeline .tweet' ).css( 'max-width', '100%' );
-                    ibody.find( '.timeline .tweet' ).css( 'width', '400px' );
-                    ibody.find( '.timeline .tweet .header' ).css( 'margin-bottom', '6px' );
-                    ibody.find( '.timeline .tweet .footer' ).css( 'display', 'none' );
-                    ibody.find( '.timeline .tweet').css( 'border', '0 none' );
-                    ibody.find( '.timeline .tweet .avatar' ).css( 'box-sizing', 'border-box' );
-                    ibody.find( '.timeline .tweet .avatar').css( 'border-radius', '48px');
-                    ibody.find( '.timeline .tweet .avatar').css( 'border', '4px solid #e0e0e0');
-                    ibody.find( '.timeline .tweet .avatar').css( 'left', '-63px');
-                    }
-                    else {
-                        $(this).hide();
-                    }
-                });
-                }
-                hideTwitterAttempts++;
-                if ( hideTwitterAttempts < 3 ) {
-                    hideTwitterBoxElements();
-                }
-            }, 1500);
-        }
-
-        // somewhere in your code after html page load
-        hideTwitterBoxElements();
       </script>
 </body>
 </html>
