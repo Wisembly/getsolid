@@ -65,7 +65,9 @@
             <div class='col-sm-7 header-text'>
               <h1 class='i18n'>{{_t "<strong>Productive</strong> and <strong>actionable</strong> meetings, every time" }}</h1>
               <p class='lead i18n'>{{_t "Run effective and easy meetings with Solid. Get the meeting agenda, tasks &amp; decisions instantly in your mailbox." }}</p>
-              <a class="btn btn-default show-prefinery-form i18n">{{_t "Get early access" }}</a>
+              <div id='cta'>
+                <a class="btn btn-default show-prefinery-form i18n">{{_t "Get early access" }}</a>
+              </div>
             </div>
             <div class='col-sm-5 i18n'>
               <img src="images/header-image-en.png" width="288" height="452" class="cover-image">
@@ -296,8 +298,17 @@
                       'en': 'Dear  <strong>Brainstormer</strong>, try Solid for actionable meetings'
                     }
                   }
-                ]
-
+                ],
+                'early-access': [
+                  {
+                    'el': $('#cta'),
+                    'method': 'html',
+                    'value': {
+                      'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+                      'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create an account</a>'
+                    }
+                  }
+                ],
             };
 
             var testCatalog = function (catalog) {
