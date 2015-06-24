@@ -510,6 +510,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'hello-50-partners': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Coucou <strong>le Loft 50 Partners</strong> ! Accédez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>Loft 50 Partners</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
