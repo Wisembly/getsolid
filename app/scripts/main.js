@@ -528,6 +528,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'hello-pretdunion': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Coucou <strong>Prêt d'Union</strong> ! Accédez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>Prêt d'Union</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
