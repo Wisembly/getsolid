@@ -546,6 +546,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'hello-early-adopters': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Hello <strong>Early Adopter</strong> ! Accède avant tout le monde à notre beta privée. We are the 15% ;)",
+              'en': "👋 Hello <strong>Early Adopter</strong>! Get instant access to our private beta below. We are the 15% ;)"
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
