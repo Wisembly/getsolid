@@ -582,7 +582,7 @@ $(document).ready(function () {
             }
           }
         ],
-        'hello-Lafarge': [
+        'hello-lafarge': [
           {
             'el': $('#cta'),
             'method': 'html',
