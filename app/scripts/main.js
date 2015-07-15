@@ -582,7 +582,7 @@ $(document).ready(function () {
             }
           }
         ],
-        'hello-lafarge': [
+        'hello-lafargeholcim': [
           {
             'el': $('#cta'),
             'method': 'html',
@@ -595,8 +595,8 @@ $(document).ready(function () {
             'el': $('.notification .container'),
             'method': 'html',
             'value': {
-              'fr': "👋 Bonjour <strong>Lafarge</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
-              'en': "👋 Hello <strong>Lafarge</strong>! Get instant access to our private beta below."
+              'fr': "👋 Bonjour <strong>LafargeHolcim</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>LafargeHolcim</strong>! Get instant access to our private beta below."
             }
           }
         ],
