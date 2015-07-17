@@ -600,6 +600,60 @@ $(document).ready(function () {
             }
           }
         ],
+        'hello-abb': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Bonjour <strong>ABB</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>ABB</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
+        'hello-hec-mnt': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Bonjour <strong>MNT</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>MNT</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
+        'hello-hec': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Bonjour <strong>HEC</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>HEC</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
