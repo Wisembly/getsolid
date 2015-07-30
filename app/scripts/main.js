@@ -654,6 +654,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'i-love-parsley': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Bonjour <strong>Parsley lover</strong> ! Accède avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hello <strong>Parsley lover</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
