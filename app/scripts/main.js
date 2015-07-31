@@ -672,6 +672,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'hello-lima': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Salut l'équipe <strong>Lima</strong> ! Accèdez avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hey <strong>Lima</strong> team! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
