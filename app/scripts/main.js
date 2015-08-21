@@ -690,6 +690,24 @@ $(document).ready(function () {
             }
           }
         ],
+        'product-hunt': [
+          {
+            'el': $('#cta'),
+            'method': 'html',
+            'value': {
+              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
+              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
+            }
+          },
+          {
+            'el': $('.notification .container'),
+            'method': 'html',
+            'value': {
+              'fr': "👋 Salut <strong>Product Hunter</strong> ! Accède avant tout le monde à notre beta privée ci-dessous.",
+              'en': "👋 Hey <strong>Product Hunter</strong>! Get instant access to our private beta below."
+            }
+          }
+        ],
     };
 
     var testCatalog = function (catalog) {
