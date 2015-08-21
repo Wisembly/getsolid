@@ -9,3 +9,4 @@ hbs.registerHelper('_t', function $(msgid) {
 
 fs.writeFileSync('app/index.html', hbs.compile(fs.readFileSync('app/index.hbs').toString())());
 fs.writeFileSync('app/getting-started.html', hbs.compile(fs.readFileSync('app/getting-started.hbs').toString())());
+fs.writeFileSync('app/product-hunt.html', hbs.compile(fs.readFileSync('app/product-hunt.hbs').toString())());
