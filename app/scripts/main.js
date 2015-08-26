@@ -56,7 +56,7 @@ $(document).ready(function () {
             'method': 'html',
             'value': {
               'fr': "<strong>Bienvenue !</strong> Accédez avant tout le monde à notre beta privée.",
-              'en': "<strong>You're special!</strong> Get instant access to our private beta."
+              'en': "<strong>You're special to us!</strong> Get instant access to our private beta, skip the waiting line."
             }
           }
         ],
