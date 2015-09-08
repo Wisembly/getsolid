@@ -146,6 +146,10 @@ ol {
 }
 .header .btn {
   margin-bottom: 30px;
+  display: block;
+}
+.header .btn.google {
+  margin-bottom: 20px;
 }
 
 .logo a {
@@ -226,14 +230,15 @@ section,
   padding-bottom: 0;
   padding-left: 25px;
   padding-right: 25px;
+  font-size: 14px;
 }
 .btn-default {
-  background-color: #46B589;
+  background-color: #289BC4;
   border: 0;
   color: #fff;
 }
 .btn-default:hover {
-  background-color: #46B589;
+  background-color: #289BC4;
   color: #fff;
 }
 

@@ -150,24 +150,6 @@ $(document).ready(function () {
             }
           }
         ],
-        'hello-thefamily': [
-          {
-            'el': $('#cta'),
-            'method': 'html',
-            'value': {
-              'fr': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Créez votre compte</a>',
-              'en': '<a class="btn btn-default i18n" href="http://solid.wisembly.com">Create your account</a>'
-            }
-          },
-          {
-            'el': $('.notification .container'),
-            'method': 'html',
-            'value': {
-              'fr': "👋 Bonjour <strong>The Family</strong>! Accédez avant tout le monde à notre beta privée ci-dessous.",
-              'en': "👋 Hello <strong>The Family</strong>! Get instant access to our private beta below."
-            }
-          }
-        ],
         'hello-plumelabs': [
           {
             'el': $('#cta'),
@@ -860,4 +842,35 @@ _gaq.push(function() {
 $(document).on('click', '.show-prefinery-form', function () {
   formURL = gaPageURL || prefinery_form_url;
   Prefinery.show(formURL);
+});
+
+var Auth = function (config) {
+  this.config = config;
+  this.get = function (key) {
+    return config[key];
+  };
+  this.getConnectURL = function (provider, redirect) {
+    var appRedirectSuccess = this.get('redirectApp') + (redirect ? '?route=' + redirect : ''),
+        appRedirectFailure = this.get('redirectAppFailure'),
+        apiURL = this.get('redirectPath') + '?redirect_success=' + encodeURIComponent(appRedirectSuccess) + '&redirect_failure=' + encodeURIComponent(appRedirectFailure);
+      apiURL += '&app_id=' + this.get('appID') + '&hash=' + this.get('hash');
+    return this.get('apiRoute') + provider + '?redirect_path=' + encodeURIComponent(apiURL);
+  };
+};
+
+var auth = new Auth({
+  appID: 'solid_app',
+  hash: 'b977e8add827f0db942c6fe7fb1b3afc5ab66f48',
+  apiRoute: 'https://api.wisembly.com/oauth/connect/',
+  redirectPath: '/oauth/signin',
+  redirectApp: 'https://solid.wisembly.com/oauth/connect',
+  redirectAppFailure: 'https://solid.wisembly.com/oauth/failure'
+});
+
+$('.office').on('click', function(){
+  window.open(auth.getConnectURL('azure'));
+});
+
+$('.google').on('click', function(){
+  window.open(auth.getConnectURL('google'));
 });
